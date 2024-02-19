@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Egame</title>
+
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="renderer" content="webkit" />
+<meta name="force-rendering" content="webkit" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="msapplication-tap-highlight" content="no">
+
+<meta name="full-screen" content="yes" />
+<meta name="x5-fullscreen" content="true" />
+<meta name="360-fullscreen" content="true" />
+
+
+<meta name="x5-page-mode" content="app">
+
+
+<link rel="stylesheet" type="text/css" href="style.e598f.css" />
+
+<link rel="stylesheet" type="text/css" href="loading/loadingStyle.006e5.css" />
+
+</head>
+<body>
+<div id="GameDiv" cc_exact_fit_screen="true">
+<div id="Cocos3dGameContainer">
+<canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
+</div>
+</div>
+
+<div id="LoadingPage">
+<div id="lp_container">
+<img id="lp_bg" src="loading/bg.8d986.jpg"></img>
+
+<img id="lp_barbg" src="loading/bgrBG.ae6be.png"></img>
+<div id="lp_barwrap">
+<img id="lp_bar" src="loading/bar.28b49.png"></img>
+</div>
+<div id="lp_percent"></div>
+<div id="lp_tips"></div>
+</div>
+</div>
+
+<div id="myRotation" style="display: none; position: absolute;margin: 0 auto;width: 100%;height: 100%;background: rgba(0, 0, 0, 1);z-index: 10000;">
+<div id="rotationContent" style="position: absolute; top: 50%;left: 50%;transform: translate(-50%, -50%);">
+<p class="android-text">
+<b id="text-rotation" class="text-rotation">Ensure rotation is enabled</b>
+</p>
+<img class="img-orientation" src>
+</div>
+</div>
+<div id="myInstruction" style="display: none;position: absolute;margin: 0 auto;width: 100%;height: 100%;">
+<div id="instructionContent" style="position: absolute; top: 50%;left: 50%;transform: translate(-50%, -50%);">
+<p class="android-text">
+<b id="text-instruction" class="text-instruction">Swipe up to play in full screen</b>
+</p>
+<img class="img-instruction" src>
+</div>
+</div>
+
+<script>
+    //判断不是https的强制跳转https
+    if ('https:' != document.location.protocol) {
+        self.location.href = window.location.href.replace('http', 'https');
+    }
+  </script>
+
+
+
+
+
+<script src="loading/loading.36814.js" charset="utf-8"> </script>
+
+<script>
+    //是否旋转屏幕
+    var isRotation = false;
+    //是否手势上划全屏
+    var isInstruction = false;
+    
+    let rotationDec = {
+      "zh":"确保启用旋转",
+      "tc":"确保启用旋转",
+      "en":"Ensure rotation is enabled",
+      "vi":"Đảm bảo đã bật xoay màn hình",
+      "ms":"Pastikan pengalihan diaktifkan",
+      "id":"Pastikan rotasi diaktifkan",
+      "th":"ตรวจสอบให้แน่ใจว่าการหมุนได้เปิดใช้งานอย",
+      "por":"Certifique-se de que a rotação esteja ativada",
+    }
+    let swipeDec = {
+      "zh":"向上滑动即可全屏播放",
+      "tc":"向上滑动即可全屏播放",
+      "en":"Swipe up to play in full screen",
+      "vi":"Trượt lên để xem ở chế độ toàn màn hình",
+      "ms":"Sapukan ke atas untuk memainkan dalam skrin penuh",
+      "id":"Geser ke atas untuk memainkan dalam layar penuh",
+      "th":"เลื่อนขึ้นเพื่อเล่นในโหมดเต็มหน้าจอ",
+      "por":"Deslize para cima para jogar em tela cheia",
+    }
+    function setCookie(cname, cvalue, exdays) {
+            var d = new Date();
+            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    let refreshDirectionDec = function(lan){
+      setCookie("h5_local_language",lan,365);
+      if (isRotation) document.getElementById("text-rotation").innerText = isMobile() ? (rotationDec[lan]?rotationDec[lan]:"") : '';
+      if (isInstruction) document.getElementById("text-instruction").innerText = isMobile() ? (swipeDec[lan]?swipeDec[lan]:"") : '';
+    }
+    window.refreshDirectionDec = refreshDirectionDec;
+    
+    let curLan = getCookie("h5_local_language");
+    curLan = curLan==""?"en":curLan;
+    refreshDirectionDec(curLan);
+      
+    let refreshRotation = function () {
+      changedPlatform();
+      var ch = document.documentElement.clientHeight; //屏幕的高度
+      var cw = document.documentElement.clientWidth; //屏幕的宽度
+      if (ch < cw) {//高大于宽的情况下
+        if(rotation) rotation.style.display = "none";
+        if (!isFullscreen) {
+          if (dom && isInstruction && isMobile()) dom.style.display = "block";
+        }
+        //判断是否非全屏
+      } else {
+        if(rotation && isRotation && isMobile()) {
+          rotation.style.width = window.innerWidth + 'px'
+          rotation.style.height = window.innerHeight + 'px'
+          // rotation.style.display = "block";
+          document.getElementById("myRotation").style.display = "block";
+        }
+        if (dom) dom.style.display = "none";
+      }
+    }
+    
+    function changedPlatform() {
+      var c1 = getByClass(document, 'img-orientation');
+      var c2 = getByClass(document, 'img-instruction');
+      if (isMobile()) {
+        if (c1) {
+          if (isRotation) {
+            c1[0].src = "img/orientation3.html";
+          } else {
+            c1[0].src = "";
+            if (rotation) rotation.style.display = "none";
+          }
+        }
+        if (c2) {
+          if (isInstruction) {
+            c2[0].src = "img/vuot.gif";
+          } else {
+            c2[0].src = "";
+            if (dom) dom.style.display = "none";
+          }
+        }
+      } else {
+        if (c1) c1[0].src = "";
+        if (c2) c2[0].src = "";
+        if (dom) dom.style.display = "none";
+        if (rotation) rotation.style.display = "none";
+        document.body.style.overflow = "hidden";
+      }
+    }
+
+    function launchFullscreen(element) {
+      if (element.requestFullscreen) {
+        element.requestFullscreen();
+      } else if (element.mozRequestFullScreen) {
+        element.mozRequestFullScreen();
+      } else if (element.msRequestFullscreen) {
+        element.msRequestFullscreen();
+      } else if (element.webkitRequestFullscreen) {
+        element.webkitRequestFullScreen();
+      }
+    }
+    
+    // 判断移动端还是pc端
+    function isMobile() { // true 移动端 false 电脑端
+      let userAgentInfo = navigator.userAgent;
+      let Agents = ['Android', 'iPhone', 'SymbianOS', 'Windows Phone', 'iPad', 'iPod'];
+      let getArr = Agents.filter(i => userAgentInfo.includes(i));
+      return getArr.length ? true : false;
+    }
+
+    let refreshInstruction = function () {
+      var ch = document.documentElement.clientHeight; //屏幕的高度
+      var cw = document.documentElement.clientWidth; //屏幕的宽度
+      if (ch < cw) { // 高大于宽的情况下
+        //判断是否非全屏,并且刷新
+        var inner = parseInt(window.innerHeight);
+        var client = window.screen.width;
+        if (!client) {
+          return;
+        }
+        var addressbar = client - inner;
+        if (inner == client || addressbar < 20) {
+          //判断是否高于15版本的
+          if (userAgent.match(/iPhone OS 15/i)) {
+          }
+          else {
+            document.body.style.position = "fixed";
+          }
+          if (dom) dom.style.display = "none";
+          document.body.style.overflow = "hidden";
+        } else {
+          document.body.style.overflow = "auto";
+          window.scrollTo(0, 1);
+        }
+      } else {
+        if (dom) dom.style.display = "none";
+      }
+    }
+    function getByClass(parent, cls){
+      if(parent.getElementsByClassName){
+        return parent.getElementsByClassName(cls);
+      }else{
+        var res = [];
+        var reg = new RegExp(' ' + cls + ' ', 'i')
+        var ele = parent.getElementsByTagName('*');
+        for(var i = 0; i < ele.length; i++){
+          if(reg.test(' ' + ele[i].className + ' ')){
+            res.push(ele[i]);
+          }
+        }
+        return res;
+      }
+    }
+    var dom = document.getElementById("myInstruction");
+    var rotation = document.getElementById("myRotation")
+    var startY, endY;
+    var isFullscreen = 0;
+    if (isRotation && rotation) {
+      window.addEventListener("orientationchange", () => {
+        setTimeout(() => {
+          refreshRotation();
+        }, 500);
+      });
+    }
+    
+    if (isInstruction && dom) {
+      document.addEventListener('touchstart', function (e) {
+        startY = e.changedTouches[0].pageY
+      }, false);
+      document.addEventListener('touchend', function (e) {
+        let num = startY - e.changedTouches[0].pageY
+        if(num > 20 && !isFullscreen) launchFullscreen(document.body)
+        dom.style.display = "none";
+      }, false);
+      document.addEventListener("fullscreenchange", function (e) {
+        if (document.fullscreenElement) {
+          dom.style.display = "none";
+          isFullscreen = 1
+        } else {
+          if(!isMobile()) { 
+            dom.style.display = "none";
+          } else {
+            isFullscreen = 0
+            dom.style.display = "block";
+          }
+        }
+      });
+      refreshInstruction();
+      addEventListener('resize', function (e) {
+        dom.style.width = window.innerWidth + 'px'
+        dom.style.height = window.innerHeight + 'px'
+        document.getElementById('myRotation').style.width = window.innerWidth + 'px'
+        document.getElementById('myRotation').style.height = window.innerHeight + 'px'
+        changedPlatform();
+      })
+    }
+    //适配小米机型旋转时候不正确的情况
+    document.addEventListener('visibilitychange', async () => {
+
+        if (document.visibilityState == 'visible') {
+          //页面展示 
+          setTimeout(() => {
+            window.dispatchEvent(new Event("orientationchange"));
+          },100);
+        }
+        // 判断低端手机的兼容性问题 && document.visibilityState == "hidden"
+        if(navigator.userAgent.indexOf(" Chrome/90.") > -1) {
+            // 页面展示
+            setTimeout(() => {
+              window.dispatchEvent(new Event("orientationchange"));
+            },100);
+        }
+      })
+
+      addEventListener('resize', function (e) {
+        
+
+        // 判断低端手机的手机旋转不触发orientationchange事件的兼容性问题
+        if(navigator.userAgent.indexOf(" Chrome/90.") > -1 && document.visibilityState == "visible") {
+            // 页面展示
+            setTimeout(() => {
+              window.dispatchEvent(new Event("orientationchange"));
+            },100);
+        }
+      })
+    refreshRotation();
+  </script>
+</body>
+</html>

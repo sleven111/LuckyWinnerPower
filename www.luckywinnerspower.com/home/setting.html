@@ -1,0 +1,166 @@
+<link href="../chat/addchat/css/tezchat.css" rel="stylesheet">
+<link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style media="screen">
+.toggle {
+  position: relative;
+  box-sizing: border-box;
+}
+.toggle input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+.toggle label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  text-indent: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+.toggle label:before {
+  content: '';
+  width: 56px;
+  height: 22px;
+  background: #ccc;
+  box-shadow: inset 0 0 0 0px #13bf11;
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  box-sizing: border-box;
+  transition: 0.2s ease-in;
+}
+.toggle label:after {
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: 0;
+  top: -4px;
+  z-index: 2;
+  background: #fff;
+  box-shadow: 0 1px 10px #0005;
+  box-sizing: border-box;
+  transition: 0.2s ease-in;
+}
+.toggle input[type="checkbox"]:checked + label:before {
+  box-shadow: inset 40px 0 0 #13bf11;
+}
+.toggle input[type="checkbox"]:checked + label:after {
+  left: 26px;
+}
+.card{
+  margin-left:auto;
+  margin-right:Auto;
+  margin:20px;
+  padding:20px;
+}
+input[type=text]{
+  width:100%;
+  padding-left: 5px;
+}
+input[type=text]::placeholder{
+  color:black;
+  font-size: 16px;
+}
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="card">
+                  <div class="toggle">
+            <input type="checkbox" checked class="toggleBtn" data-info="1" />
+            <label>massenger</label>
+          </div>
+          <div class="url">
+            <input type="text" name="" value="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" placeholder="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" readonly>
+          </div>
+          <br>
+                <div class="toggle">
+            <input type="checkbox" checked class="toggleBtn" data-info="2" />
+            <label>telegram</label>
+          </div>
+          <div class="url">
+            <input type="text" name="" value="https://telegram.org/" placeholder="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" readonly>
+          </div>
+          <br>
+                <div class="toggle">
+            <input type="checkbox"  class="toggleBtn" data-info="3" />
+            <label>whatsapp</label>
+          </div>
+          <div class="url">
+            <input type="text" name="" value="whatsapp.com" placeholder="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" readonly>
+          </div>
+          <br>
+                <div class="toggle">
+            <input type="checkbox"  class="toggleBtn" data-info="4" />
+            <label>instagram</label>
+          </div>
+          <div class="url">
+            <input type="text" name="" value="instagram.com" placeholder="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" readonly>
+          </div>
+          <br>
+                <div class="toggle">
+            <input type="checkbox"  class="toggleBtn" data-info="5" />
+            <label>facebook</label>
+          </div>
+          <div class="url">
+            <input type="text" name="" value="facebook.com" placeholder="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" readonly>
+          </div>
+          <br>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+  // var toggleStatus = $("#toggleBtn").prop("checked");
+  // console.log("Toggle Button Status: " + toggleStatus);
+  $(".toggleBtn").on('change', function(){
+    var checkstatus;
+    if($(this).is(':checked')) {
+              var toggle = $(this).val();
+              checkstatus = 1;
+          } else {
+              checkstatus= 0;
+          }
+    var dataInfo = $(this).data("info");
+    var base_urls='../index.html';
+    var uri=base_urls+'home/updatetoggle';
+    var form_data = new FormData();
+    form_data.append('dataInfo', dataInfo);
+    form_data.append('status', checkstatus);
+
+    $.ajax({
+        dataType: "json",
+        type: "post",
+        cache: false,
+        contentType: false,
+        processData: false,
+        data: form_data,
+        url: uri,
+        success: function(res) {
+          if(res.success == true)
+          {
+            alert("Status Updated");
+          }else{
+            alert("Something Went wrong");
+          }
+        }
+    });
+
+    // alert(dataInfo);
+  })
+});
+</script>

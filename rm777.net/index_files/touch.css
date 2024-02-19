@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body, div, address, blockquote, iframe, ul, ol, dl, dt, dd, li, dl, h1, h2, h3, h4, h5, h6, p, pre, table, caption, th, td, form, legend, fieldset, input, button, select, textarea {
+    font-family: "微软雅黑",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+ol, ul ,li{list-style: none;}
+img {border: 0; margin:0; padding:0;}
+a {text-decoration: none; cursor:pointer;}
+#xxasp_ding7 { max-width:640px; width:100%; text-align:center;margin: 0 auto;clear:both;overflow:hidden; height:100%;}

@@ -1,0 +1,125 @@
+
+<html>
+
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head id="Head1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Juwaonline</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="../external.html?link=https://dl.juwa777.com/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="../external.html?link=https://dl.juwa777.com/js/browser.js?v=1.366"></script>
+    <link rel="stylesheet" href="../external.html?link=https://dl.juwa777.com/css/style.css?v=1.366">
+</head>
+<script type="text/javascript">
+    //IOS下载地址
+    //var IOS_DownLoad_URL = "https://yl1CSe9.455818.com/2IlOF";
+    var IOS_DownLoad_URL  = "../external.html?link=https://gogo.mxlqrdrtac.com/qgoaf6"
+    //var IOS_DownLoad_URL = "itms-services://?action=download-manifest&url=https://juwadownload.oss-us-west-1.aliyuncs.com/ios/JUWA.plist";
+
+    //安卓下载地址
+    var AZ_DownLoad_URL = "../external.html?link=https://juwadownload.oss-us-west-1.aliyuncs.com/app/download/JUWA.apk";
+</script>
+
+<body>
+
+    <div class="download" @touchmove.prevent>
+        <!--<div class="box1">-->
+            <!--<img src="./images/JUWA_DOWNLOAD.png" alt="" class="box-img">-->
+
+            <div class="backTop hidden" @click="toTop"></div>
+            <div class="btn_download" id='download1'>
+                <a href="javascript:;" class="downloadButton"><img class="btn_download_img" src="../external.html?link=https://dl.juwa777.com/images/Btn_DOWNLOAD.png"></a>
+            </div>
+        <!--</div>-->
+        <div class="footer hidden">
+            <div class="download1" id='download1'
+                style="position: relative; background-image:url('../external.html?link=https://dl.juwa777.com/images/Download_bg.png');">
+
+                <a href="javascript:;" class="downloadButton"><img class="download-btn2" src="../external.html?link=https://dl.juwa777.com/images/Download2.png"
+                        alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="popup hidden">
+        <div class="popup-header">TIP</div>
+        <div class="popup-content">Please use the safari browser to download</div>
+        <button class="popup-button">Confirm</button>
+    </div>
+
+    <script type="text/javascript">
+        window.onload = function () {
+            document.documentElement.style.fontSize = document.documentElement.clientWidth * 20 / 320 + 'px';
+            var myButton = document.getElementById("download1");
+
+            if (false) {
+                // 当 $is_forbid 为真时，禁用按钮
+                myButton.removeEventListener("click", download_url);
+            } else {
+                // 当 $is_forbid 为假时，启用按钮
+                myButton.addEventListener("click", download_url);
+            }
+
+        }
+
+        function download_url() {
+            if (null == AZ_DownLoad_URL || "undefine" == AZ_DownLoad_URL || "" == AZ_DownLoad_URL) {
+                alert("\u6ca1\u6709\u914d\u7f6e\u5b89\u5353\u4e0b\u8f7d\u5730\u5740");
+            } else {
+                if (z7.mobile.ios()) {
+                    // 判断是否使用的是Safari浏览器
+                    const isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 &&
+                        navigator.userAgent &&
+                        navigator.userAgent.indexOf('CriOS') === -1 &&
+                        navigator.userAgent.indexOf('FxiOS') === -1;
+                    if ( /* isIphone &&  */ !isSafari) {
+                        // 弹出自定义的提示框
+                        $(".popup").removeClass('hidden');
+                    } else {
+                        // 使用 AJAX 技术调用 PHP 方法
+                        $.post("../external.html?link=https://dl.juwa777.com/report.php", {})
+                            .done(function (response) {
+                                var download1 = document.getElementById("download1");
+                                var response = JSON.parse(response)
+                                if (response.is_forbid == '1') {
+                                    // 当 $is_forbid 为真时，禁用按钮
+                                    download1.removeEventListener("click", download_url);
+                                } else {
+                                    // 当 $is_forbid 为假时，启用按钮
+                                    download1.addEventListener("click", download_url);
+                                }
+                            })
+                            .fail(function (xhr, status, error) {
+                                console.log(error); // 处理错误响应
+                            });
+                        window.location.href = IOS_DownLoad_URL
+                    }
+                } else {
+                    window.location.href = AZ_DownLoad_URL
+                }
+            }
+        };
+        $('.popup-button').click(function () {
+            $(".popup").addClass('hidden');
+            /* $.post("report.php", {})
+                .done(function (response) {
+                    var download1 = document.getElementById("download1");
+                    var response = JSON.parse(response)
+                    if (response.is_forbid == '1') {
+                        // 当 $is_forbid 为真时，禁用按钮
+                        download1.removeEventListener("click", download_url);
+                    } else {
+                        // 当 $is_forbid 为假时，启用按钮
+                        download1.addEventListener("click", download_url);
+                        // window.location.href = IOS_DownLoad_URL
+                    }
+                })
+                .fail(function (xhr, status, error) {
+                    console.log(error); // 处理错误响应
+                }); */
+
+        });
+    </script>
+</body>
+
+</html>

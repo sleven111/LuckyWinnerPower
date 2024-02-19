@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Vblink</title>
+
+<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1,minimal-ui=true" />
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="renderer" content="webkit" />
+<meta name="force-rendering" content="webkit" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="msapplication-tap-highlight" content="no">
+
+<meta name="full-screen" content="yes" />
+<meta name="x5-fullscreen" content="true" />
+<meta name="360-fullscreen" content="true" />
+
+
+<meta name="x5-page-mode" content="app">
+
+
+<link rel="stylesheet" type="text/css" href="style.e598f.css" />
+
+<link rel="stylesheet" type="text/css" href="loading/loadingStyle.45a66.css" />
+
+</head>
+<body>
+<div id="GameDiv" cc_exact_fit_screen="true">
+<div id="Cocos3dGameContainer">
+<canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="99"></canvas>
+</div>
+</div>
+
+<div id="LoadingPage">
+<div id="lp_container">
+<img id="lp_bg" src="loading/bg.0143b.jpg"></img>
+<img id="lp_logo" src="loading/logo.51136.png"></img>
+<img id="lp_barbg" src="loading/bgrBG.2f8b4.png"></img>
+<div id="lp_barwrap">
+<img id="lp_bar" src="loading/bar.b81d3.png"></img>
+</div>
+<div id="lp_percent"></div>
+<div id="lp_tips"></div>
+</div>
+</div>
+
+
+<script>
+    //判断不是https的强制跳转https
+    if ('https:' != document.location.protocol) {
+        self.location.href = window.location.href.replace('http', 'https');
+    }
+  </script>
+
+
+
+
+
+<script src="loading/loading.c7020.js" charset="utf-8"> </script>
+
+</body>
+</html>
