@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from luckywinnerspower.com/link2play by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 05:23:08 GMT -->
+
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-  <head>
+<head>
   <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,width=device-width,user-scalable=no" />
+
   <meta charset='utf-8'>
+  <!-- Demo styles -->
   <link rel="stylesheet" href="../cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <base >
@@ -41,9 +43,12 @@
       z-index: 1000;
       transition: box-shadow 1s;
     }
-html{
- overflow-x: hidden;
-}
+
+
+    html{
+      overflow-x: hidden;
+    }
+
     .tabs {
       display: table;
       table-layout: fixed;
@@ -51,6 +56,7 @@ html{
       -webkit-transform: translateY(5px);
       transform: translateY(5px);
     }
+
     .tabs > li {
       transition-duration: .25s;
       display: table-cell;
@@ -96,10 +102,12 @@ html{
       -webkit-transform: translateY(0);
       transform: translateY(0);
     }
+
     .tab__content {
       position: relative;
       width: 100%;
       border-radius: 5px 5px 0px 0px;
+
     }
     .tab__content > li {
       width: 100%;
@@ -115,24 +123,166 @@ html{
       border-radius: 5px;
       padding-top: 24px;
     }
-    .blink_me {
-      animation: blinker 1s linear infinite;
-      color:red;
+    nav .wrapper{
+      position: relative;
+      max-width:100%;
+      padding: 0px 30px;
+      height: 70px;
+      line-height: 70px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #211951
     }
-    @keyframes blinker {
-      50% {
-        opacity: 0;
-      }
+    .wrapper .nav-links{
+      display: inline-flex;
+    }
+    .nav-links li{
+      list-style: none;
+    }
+    .nav-links li a{
+      color: #f2f2f2;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 9px 15px;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+    }
+    .nav-links li a:hover{
+      background: #211951;
+    }
+    .nav-links .drop-menu{
+      background: #211951;
+      width: 180px;
+      line-height: 45px;
+      top: 85px;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.15);
+    }
+    .nav-links li:hover .mega-box{
+      transition: all 0.3s ease;
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+    }
+    .content .row img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .content .row header{
+      color: #f2f2f2;
+      font-size: 20px;
+      font-weight: 500;
     }
 
+    .wrapper .btn{
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+    }
+    .wrapper .btn.close-btn{
+      position: absolute;
+      right: 30px;
+      top: 10px;
+    }
+
+    @media screen and (max-width: 970px) {
+      .wrapper .btn{
+        display: block;
+      }
+      .wrapper .nav-links{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        max-width: 350px;
+        top: 0;
+        left: -100%;
+        background: #242526;
+        display: block;
+        padding: 50px 10px;
+        line-height: 50px;
+        overflow-y: auto;
+        box-shadow: 0px 15px 15px rgba(0,0,0,0.18);
+        transition: all 0.3s ease;
+      }
+      /* custom scroll bar */
+      ::-webkit-scrollbar {
+        width: 10px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #242526;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #3A3B3C;
+      }
+      #menu-btn:checked ~ .nav-links{
+        left: 0%;
+      }
+      #menu-btn:checked ~ .btn.menu-btn{
+        display: none;
+      }
+      #close-btn:checked ~ .btn.menu-btn{
+        display: block;
+      }
+      .nav-links li{
+        margin: 15px 10px;
+      }
+      .nav-links li a{
+        padding: 0 20px;
+        display: block;
+        font-size: 20px;
+      }
+      .nav-links .mobile-item{
+        color: #f2f2f2;
+        font-size: 20px;
+        font-weight: 500;
+        padding-left: 20px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .nav-links .mobile-item:hover{
+        background: #3A3B3C;
+      }
+      .content .row header{
+        font-size: 19px;
+      }
+    }
+    nav input{
+      display: none;
+    }
+    .body-text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      text-align: center;
+      padding: 0 30px;
+    }
+    .body-text div{
+      font-size: 45px;
+      font-weight: 600;
+    }
     </style>
-  </head>
+          <style >
+      #addchat-bot .c-contacts .c-search, #addchat-bot .c-groups .c-search, #addchat-bot-admin .c-contacts .c-search, #addchat-bot-admin .c-groups .c-search{
+        display: none;
+      }
+      .c-search-input{
+        display: none;
+      }
+      </style>
+        </head>
   <body >
+
     <div id="SITE_CONTAINER">
       <div id="main_MF">
-        <div id="SCROLL_TO_TOP" class="GFY_- ignore-focus" tabindex="-1" role="region" aria-label="top of page"> </div>
         <div id="site-root">
           <div id="masterPage" class="mesh-layout">
+
             <header tabindex="-1" id="SITE_HEADER_WRAPPER">
               <div id="SITE_HEADER" class="JPPwV">
                 <div class="_2JCNE"></div>
@@ -141,574 +291,552 @@ html{
                     <div data-mesh-id="SITE_HEADERinlineContent" data-testid="inline-content" class="">
                       <div data-mesh-id="SITE_HEADERinlineContent-gridContainer" data-testid="mesh-container-content">
                         <div id="comp-kib5zu5w" class="_2bafp" data-testid="richTextElement">
-                          <h2  style="font-size:18px;margin-left:10px;float:left">
-                            <span style="font-size:18px">
-                              <span style="color:black">OPEN</span>
-                              <span class="color_23">
-                                <span style="font-family:droid-serif-w01-regular,droid-serif-w02-regular,droid-serif-w10-regular,serif">24/7!</span></span>
-                              </span>
-                            </h2>
-                            <h2  style="font-size:18px;margin-right:10px;float:right">
-                              <span style="font-size:18px">
-                                <span style="color:black">OPEN</span>
-                                <span class="color_23">
-                                  <span style="font-family:droid-serif-w01-regular,droid-serif-w02-regular,droid-serif-w10-regular,serif">24/7!</span></span>
-                                </span>
-                              </h2>
-                            </div>
-                            <div id="comp-kk6iq39p" class="_2bafp" data-testid="richTextElement"><h3 class="font_3" style="font-size:30px; text-align:center">
-                              <span style="font-size:30px">
-                                <span style="color:#FFFFFF"></span>
-                              </span></h3></div>
-                              <div id="i2bj28es" class="Ued3M _2ws69" style="text-align:center;" title="">
-                                <a href="index.html">
-                                  <img  src="top.jpg" alt="top.jpg" style="width:195px;height:161px;object-fit:cover;object-position:50% 50%text-align:center;"/>
-                                </a>
+                        </div>
+                        <div id="comp-kk6iq39p" class="_2bafp" data-testid="richTextElement"><h3 class="font_3" style="font-size:30px; text-align:center">
+
+                          <span style="font-size:30px">
+
+                            <span style="color:#FFFFFF"></span>
+                          </span></h3></div>
+                          <div id="i2bj28es" class="Ued3M _2ws69" style="text-align:center;" title="">
+                            <a href="index.html">
+                              <img  src="top.jpg" alt="top.jpg" style="width:350px;height:161px;object-fit:cover;object-position:50% 50%text-align:center; border-radius:15px;"/>
+                            </a>
+                          </div>
+                          <!-- This nav bar -->
+                          <nav class="navbar navbar-dark py-0 bg-info navbar-expand-lg ">
+                            <a class="navbar-brand card-img-top" href="index.html">
+                              LUCKY WINNERS VE- <span style="color:red;">POWER</span>
+                            </a>
+                            <a style="color:#fff;" href="index.html" class="btn btn-danger btn-sm nav-link">Home</a>
+                            <a style="color:#fff;" href="cashapp.html" class="nav-link">CashApp</a>
+                            <a style="color:#fff;" href="link2play.html" class="nav-link">Game Links</a>
+                            <a style="color:#fff;" href="contact.html" class="nav-link">Contact</a>
+                                                      </nav>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            </div>
+            <div class="_2egft"><div id="ContainermainPage" class="_1Cfot">
+              <div data-mesh-id="ContainermainPageinlineContent" data-testid="inline-content" class="">
+                <div data-mesh-id="ContainermainPageinlineContent-gridContainer" data-testid="mesh-container-content">
+                  <div id="comp-kiba3oau" class="_3ucik">
+                    <div data-mesh-id="comp-kiba3oauinlineContent" data-testid="inline-content" class="">
+                      <div data-mesh-id="comp-kiba3oauinlineContent-gridContainer" data-testid="mesh-container-content">
+                        <!-- cousel -->
+                        <div id="demo" class="carousel slide" data-ride="carousel">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="../www.playgd.mobi/LOGO/playgd/splash.jpg" alt="Los Angeles" width="100%" height="700">
+                              <div class="carousel-caption">
+                                <h4>Lucky Winnerspowes</h4>
+                                <p style="font-size:23px;"> Play free online games at home or on the road.
+                                </p>
                               </div>
-                              <nav class="navbar navbar-dark py-0 bg-info navbar-expand-lg ">
-                                <a class="navbar-brand card-img-top" href="index.html">
-                                  LUCKY WINNERS VE- <span style="color:red;">POWER</span>
-                                </a>
-                                <a style="color:#fff;" href="index.html" class="nav-link">Home</a>
-                                <a style="color:#fff;" href="cashapp.html" class="nav-link btn btn-danger btn-sm ">CashApp</a>
-                                <a style="color:#fff;" href="link2play.html" class="nav-link  btn-sm ">Game Links</a>
-                                <a style="color:#fff;" href="contact.html" class="nav-link">Contact</a>
-                                                              </nav>
                             </div>
+                          </div>
+                        </div>
+                        <div id="comp-kr140321" class="_2bafp row" data-testid="richTextElement" style="background:#211951;padding:30px;">
+                          <p  class="font_8 col-md-8 col-sm-8 col-lg-8 mt-5 p-5" style="font-size:18px; line-height:1.5em; text-align:left">
+                            <span style="font-size:22px">
+                              <span style="font-family:serif;font-size:20px;">
+                                <span>
+                                  <span style="color:white;font-weight:normal; font-size:25px">
+                                      Online Sweepstakes ! We use 16 different systems: Orion Stars, Vpower, Golden Dragon, Fire Kirin, Xgames, River Sweeps, Vegas, Ultramonster, Rivermonster and FORTUNE!!! Go to our games tab to find the list of the games we got. Each system providing you with a wide variety of games right to your phone! Looking for a new system? Try out our Grandsweeps system today! Grandsweeps offers different slots and fish games that you can access with ONE, EASY LOGIN! I know you're feeling lucky!!! Donate us More everyday for good cause. Thanks . Wish u all the luck.                                    <button type="button" style="display:none" name="button"> <a href="home/setting.html">set</a> </button>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </p>
+                          <div class="col-sm-4 col-md-4 col-lg-4">
+                            <h3 style="text-align:left; color:white; font-weight:bold; text-decoration:underline">Why Choose Play Lucky Winner</h3>
+                            <img class="mt-3 mt-4" style="height:300px ;width:400px; border-radius:40px 0px 40px 0px" src="../images.pexels.com/photos/371924/pexels-photo-3719247874.jpg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=1" alt="play">
                           </div>
                         </div>
                       </div>
                     </div>
-                  </header>
-                </div>
-                <main id="PAGES_CONTAINER" tabindex="-1">
-                  <div id="SITE_PAGES">
-                    <div id="ibcy3" class="_4INfd _3V_xK">
-                      <div class="_3XkhD">
+                  </div>
+                  <!-- This is policy card -->
+                  <div id="comp-kibav61z" class="_3ucik bg-white row large shadow rounded mt-3 mx-1" >
+                    <div data-testid="svgRoot-comp-kr14dswl" class="col-md-6 col-sm-6 col-lg-6 TG-Zk _1UnNA" style="text-align:center;">
+                      <img style="width:100%  ; border-radius:30px 0px 30px 0px" height="800px"src="../cdn.pixabay.com/photo/2015/02/07/13/07/cards-627167_1280.jpg" alt="">
+                    </div>
+                    <div data-mesh-id="comp-kibav61zinlineContent" data-testid="inline-content" class="col-md-6 col-sm-6 col-lg-6">
+                      <div id="comp-kibajc5l" class="_2bafp" data-testid="richTextElement">
+                        <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="headingOne">
+                              <h3 class="mb-0" style="opacity:0.4">
+                                Company Policies:
+                              </h3>
+                            </div>
+                            <div id="collapseOne" class="collapse toggle show" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body">
+                                <h5>  ---NO REFUNDS----</h5>
+                                                                  <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -DO NOT SEND ANY DONATIONS BEFORE YOU HAVE ESTABLISHED GAMING ACCOUNTS WITH US                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -Must present valid                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                     photo I.D. to create new acct/redeem                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -$ will not be added on any "pending"/"on hold" donations                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    - Maximum Redeem: 600 $ per 24 hours                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    - Minimum Redeemable: 40 $                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -Minimum Donation is $20                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    - Donations that are older than  24 hours will not be honored                                   </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -Any claims of unadded donations must be made with 24 hours of initial donation date                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -We are not responsible for game system/software malfunctions                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                     errors/glitch. Play at your own risk!                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -Must be 18 years of age or older to play                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    -We reserve the right to refuse service                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    - We will not honor refund request                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                     requesting a refund will invalidate your donation                                  </p>
+                                                                    <p class="font_8 mx-5" style="font-size:20px; line-height:1.3em; text-align:left">
+                                    - Use of any foul language will get you banned                                  </p>
+                                                                </div>
+                            </div>
+                          </div>
+                        </div>
+
                       </div>
-                      <div class="_3UCvU">
-                        <div id="Containeribcy3" class="_1Cfot">
-                          <div data-mesh-id="Containeribcy3inlineContent" data-testid="inline-content" class="">
-                            <div data-mesh-id="Containeribcy3inlineContent-gridContainer" data-testid="mesh-container-content">
-                              <div class="row">
-                                <div class="col-md-12 text-center">
-                                  <div class="telegram" style="float:ri;">
-                                    <span class="blink_me" style="font-size:24px;"> <b style="color:green !important;">Subscribe</b> to our channel & Get  <b style="color:green !important;">Bonus</b> :</span> <a target="_blank" href="https://t.me/+Czre0baGznFkYzU9"><img src="../upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" height="50" alt=""></a>
-                                  </div>
-                                </div>
-                              </div>
-                              <div id="comp-kr17jqww" class="_2bafp" data-testid="richTextElement">
-                                <h2 class="font_2" style="font-size:50px; text-align:center">
-                                  <span style="font-size:24px">
-                                    <span style="font-family:overlock,sans-serif">
-                                      <span class="color_11" style="font-size:15px;">CLICK either LINK BELOW to DONATE:</span></span>
-                                    </span>
-                                  </h2>
-                                </div>
-                                <div id="comp-kr15miyb">
-                                  <div role="grid" class="_1Bme7">
-                                    <div role="row" class="_3Rcdf">
-                                      <div role="gridcell" class="_1ozXL"><div id="comp-kr15mj1i__item1" class="_31Ne5">
-                                        <div data-mesh-id="comp-kr15mj1i__item1inlineContent" data-testid="inline-content" class="">
-                                          <div data-mesh-id="comp-kr15mj1i__item1inlineContent-gridContainer" data-testid="mesh-container-content">
-                                            <hr>
-                                            <div class="container-fluid">
-                                              <div class="row">
-                                                <div class="col-md-6"  style="text-align:center;">
-                                                  <div id="comp-kr15mj5f__item1" class="_2bafp" data-testid="richTextElement"><p class="font_4" style="font-size:16px; text-align:center"><span style="font-family:eb garamond,serif"><span style="font-size:12px">Please <span style="color:#E21C21">REFRESH THE PAGE </span>before sending donations. If you do not refresh the page your donation is at risk of being lost.</span></span></p>
-                                                    <p class="font_4 blink_me" style="font-size:14px;color:green"> Any problem on our messenger , if u can’t reach us please click on frst messenger button for contact .</p>
-
-                                                    <p class="font_4" style="font-size:16px; text-align:center"><span style="font-family:eb garamond,serif"><span style="font-size:16px"><span class="wixGuard">​</span></span></span></p>
-                                                    <p class="font_4" style="font-size:16px; text-align:center"><span style="color:#000000"><span style="font-size:16px"><span style="letter-spacing:0em"><span style="font-family:eb garamond,serif"><span class="wixGuard">​</span></span></span></span></span></p>
-                                                    <p class="font_4" style="font-size:16px; text-align:center"><span style="color:#E21C21"><span style="font-size:16px"><span style="letter-spacing:0em"><span style="font-family:eb garamond,serif"></span></span></span></span></p>
-                                                    <!-- <p class="font_4" style="font-size:16px; text-align:center"><span class="blink_me" style="font-size:18px;letter-spacing:0em;color:red;font-weight:bold;">Minimum donation : $20 </span>  </p> -->
-                                                    <!-- <br> <span style="font-size:11px;">(For David)</span> -->
+                    </div>
+                  </div>
+                  <div class="">
+                    <img width="100%" src="../firebasestorage.googleapis.com/v0/b/chat-8637f.appspot.com/o/Untitled-10fdf.jpg?alt=media&amp;token=55a07296-5995-4f20-91c7-2e10248cbeef" alt="">
+                  </div>
+                  <!-- This bonuses section paragraph -->
+                  <div class="row mx-1 mt-3 p-4" style="box-shadow: -3px 13px 20px -5px rgba(0,0,0,0.29);
+                  -webkit-box-shadow: -3px 13px 20px -5px rgba(0,0,0,0.29);
+                  -moz-box-shadow: -3px 13px 20px -5px rgba(0,0,0,0.29);">
+                  <div id="comp-kk4gqt5n" class="_3ucik bg-white col-md-8 col-lg-8 col-sm-8">
+                    <div class="_15Xjo" data-testid="container-bg">
+                    </div>
+                    <div data-mesh-id="comp-kk4gqt5ninlineContent" data-testid="inline-content" class="">
+                      <div data-mesh-id="comp-kk4gqt5ninlineContent-gridContainer" data-testid="mesh-container-content">
+                        <div id="comp-kk4gqt8e" class="_2bafp" data-testid="richTextElement">
+                          <p class="font_8" style="font-size:25px; text-align: center;">
+                            <span style="text-decoration:underline;color:#242867">
+                              <b>BONUSES</b>:
+                            </span>
+                          </p>
+                                                      <p class="font_8 mx-3" style="font-size:20px; text-align: left;">
+                              -Referrals Bonus: 20% for referring a new customer who made a minimum donation of 20 $ upon request                            </p>
+                                                      <p class="font_8 mx-3" style="font-size:20px; text-align: left;">
+                              -New Customer Bonus: If any NEW customer donates 20 on their first play                            </p>
+                                                      <p class="font_8 mx-3" style="font-size:20px; text-align: left;">
+                               they can receive a bonus of 20% of recharge upon request                            </p>
+                                                      <p class="font_8 mx-3" style="font-size:20px; text-align: left;">
+                              -Birthday Bonus: 35% of recharge given once a year on date of birth; must present drivers license or government-issued I.D. card to claim                            </p>
                                                   </div>
-                                                </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4" style="object-alig">
+                    <img height="300px" width="300px" class="mx-5" src="../firebasestorage.googleapis.com/v0/b/chat-8637f.appspot.com/o/bonus%20(1)1db9.png?alt=media&amp;token=deeae7e0-7d0f-41ad-8d48-9765429237d4" alt="bonus">
+                  </div>
+                </div>
+                <p class="mt-3" style="text-align: center;padding-bottom:60px;font-weight:bold;color:white; background:#242867;font-size:20px;"><span style="color:#ff4747;line-height:3;font-size:2rem">*DISCLAIMER*</span> <br> You must claim referral bonuses/new customer bonuses one week from sign up date. As for the dragon wheel you must send a donation and get it loaded between the hours 8am-8pm CST to qualify. Birthday bonuses must be claimed on date of birth no later or earlier</p>
 
-                                                                                                  <div  class="col-md-6"   style="text-align:center;">
-                                                    <div id="comp-kr15mj4t__item1" class="_1Ci6i _2ws69" title="">
-                                                      <a data-testid="linkElement" href="https://cash.app/$d0cevil" target="_blank" rel="noopener" class="-qfs1">
-                                                        <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-                                                          <img src="cash.webp" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%"/>
-                                                        </wix-image>
-                                                      </a>
-                                                      <span class="fas fa-arrow-alt-circle-right " style="font-size:34px; padding-left:35px;color:red"></span>
-                                                      <a style="padding-left:35px;" data-testid="linkElement" href="https://m.me/yessammie" target="_blank" rel="noopener" class="-qfs1">
-                                                        <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-                                                          <img src="mess.png" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%"/>
-                                                        </wix-image>
-                                                      </a>
-                                                      <a href="https://m.me/biggordreams" target="_blank"> <img  class="blink_me" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;" alt=""></a>
-
-                                                    </div>
-                                                    <br>
-                                                    <p style="text-align:center; font-style:italic;">1st cashapp for David's cater.
-               ⚠️ANNOUNCEMENT⚠️
- RECHRGE ABOVE $10 WELCOME HERE.
-THANK YOU</p>
-                                                    <hr> </div>
-                                                                                                                                                          <div class="col-md-6 text-center">
-                                                                                                              <div class="row">
-                                                          <hr>
-                                                          <div class="col-md-12"  style="text-align:center;">
-                                                            <div id="comp-kr15mj4t__item1" class="_1Ci6i _2ws69" title="">
-                                                              <a data-testid="linkElement" href="https://cash.app/$d0cevil" target="_blank" rel="noopener" class="-qfs1">
-                                                              <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true"><img src="cash.webp" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%"/></wix-image></a>
-                                                            <span class="fas fa-arrow-alt-circle-right" style="font-size:34px; padding-left:35px;color:red"></span>
-                                                            <a style="padding-left:35px;" data-testid="linkElement" href="https://m.me/yessammie" target="_blank" rel="noopener" class="-qfs1">
-                                                              <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-                                                                <img src="mess.png" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%"/>
-                                                              </wix-image>
-                                                            </a>
-                                                            <p style="text-align:center;font-style:italic;">         2nd cashapp for David's cater.
-               ⚠️ANNOUNCEMENT⚠️
- RECHARGE ABOVE $10  .
-THANK YOU</p></div>
-                                                          </div>  </div><br>
-<br>
-<br>
-<br>
-<br>
-
-                  <!-- <p class="font_4" style="font-size:12px; text-align:center"><span style="font-size:12px;letter-spacing:0em;">Anything <span class="blink_me" style="font-weight:bold;font-size:15px;color:red;">below $20</span> . Please, Contact one of our agent below.</span><br> <span style="font-size:11px;">(For Asila)</span></p> -->
-</div>
-                                                    <div class="col-md-6"  style="text-align:center;">
-                                                      <div id="comp-kr15mj4t__item1" class="_1Ci6i _2ws69" title=""><a data-testid="linkElement" href="https://cash.app/$d0cevil" target="_blank" rel="noopener" class="-qfs1">
-                                                        <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true"><img src="cash.webp" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%"/></wix-image></a>
-                                                        <span class="fas fa-arrow-alt-circle-right " style="font-size:34px; padding-left:35px;color:red"></span>
-                                                        <a style="padding-left:35px;" data-testid="linkElement" href="https://m.me/yessammie" target="_blank" rel="noopener" class="-qfs1">
-                                                          <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_ blink_me" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-                                                            <img src="mess.png" alt="CASHAPP" style="width:100px;height:80px;object-fit:cover;object-position:50% 50%"/>
-                                                          </wix-image>
-                                                        </a>
-                                                        <!-- <a target="_blank" href="https://myvepower.com/cashapp" class="btn blink_me btn-primary btn-sm" style="color:white;">
-                                                          Website
-                                                        </a> -->
-                                                      </div>
-                                                      <br> <p style="text-align:center;font-style:italic;">   Only for Sammy - Cash tag and messenger.  
-             ⚠️ ANNOUNCEMENT⚠️
- 
-THANK YOU .</p></div>
-                                                                                                        <hr>
-                                                  </div>
-</div>
+              </div>
+              <!--<div id="addchat-bubble" style="left:3px !important;border-radius:50px;" class="c-animate"><div class="c-bubble-inner">-->
+              <!--  <div class="chat_botton" >-->
+              <!--    <h6>Inbox us</h6>-->
+              <!--    <a href="https://m.me/biggordreams" target="_blank"> <img  class="blink_me" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;margin-top:15px;" alt=""></a>-->
+              <!--  </div>-->
+              <!--</div></div>-->
+                            <!-- <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
+              <div class="chat_botton" style="background: green;border-radius: 60px;">
+              <span class="fa fa-comments" style="color:white;font-size:22px;padding:15px;"></span>
+            </div>
+          </div></div> -->
+                      <ul style="list-style-type:none;">
+                              <li>  <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
+                  <a style="" data-testid="linkElement" href="../www.messenger.com/login.e9abf.delayed?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" target="_blank" rel="noopener" class="-qfs1 chat_botton">
+                    <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
+                      <img src="mess.png" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%;margin-top:-100px; border-radius:50%"/>
+                    </wix-image>
+                  </a></div></li>
+                                
+                </ul>
+                          <ul style="list-style-type:none;">
+                                                <li>   <li> <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
+                    <div class="chat_botton">
+                      <a href="../telegram.org/index.html" target="_blank"> <img class="" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;" alt=""></a></div>  </div></div>
+                    </li></li>
+                  
+                </ul>
+              
+              <!-- <ul>
+              <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
+              <li></li>
+            </div></div>
+          </ul> -->
 
 
-                                                    </div></div></div></div>
-                                                    <hr>
-                                                    <div role="gridcell" class="_1ozXL"><div id="comp-kr15mj1i__item1" class="_31Ne5"><div id="bgLayers_comp-kr15mj1i__item1" data-hook="bgLayers" class="X-jRX"><div data-testid="colorUnderlay" class="mlsxv _22Lsw"></div><div id="bgMedia_comp-kr15mj1i__item1" class="_1J6n9"></div>
-                                                  </div>
-                                                </main>
+          <div id="addchat-bot" style="display: none;" class="c-animate">
 
-                                                <!-- <div id="addchat-bubble" style="left:3px !important;border-radius:50px;" class="c-animate"><div class="c-bubble-inner">
-                                                  <div class="chat_botton" >
-                                                    <h6>Inbox us</h6>
-                                                    <a href="https://m.me/biggordreams" target="_blank"> <img class="blink_me" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;margin-top:15px;" alt=""></a>
-                                                  </div>
-                                                </div></div> -->
-                                                                                                <!-- <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
-                                                  <div class="chat_botton" style="background: green;border-radius: 60px;">
-                                                    <span class="fa fa-comments" style="color:white;font-size:22px;padding:15px;"></span>
-                                                  </div>
-                                                </div></div> -->
+            <div class="c-toast c-animate  c-toast-error"><span class="c-toast-icon"></span>
 
 
-  <!-- <ul style="list-style-type:none;">
-    <li>  <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
-      <a style="" data-testid="linkElement" href="https://m.me/yessammie" target="_blank" rel="noopener" class="-qfs1 chat_botton">
-        <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-          <img src="mess.PNG" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%;margin-top:-100px"/>
-        </wix-image>
-      </a></div></li>
-      <li> <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
-        <div class="chat_botton">
-         <a href="https://m.me/biggordreams" target="_blank"> <img class="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;" alt=""></a></div>  </div></li>
-  </ul> -->
+              <p class="c-toast-text"></p>
+            </div>
+            <div class="c-chatbox c-active">
+              <div class="c-guestbox c-active">
 
-      <ul style="list-style-type:none;">
-            <li>  <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
-        <a style="" data-testid="linkElement" href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F100048459707589%2F" target="_blank" rel="noopener" class="-qfs1 chat_botton">
-          <wix-image id="img_comp-kr15mj4t__item1" class="rca7A _1RmI_" data-image-info="" data-bg-effect-name="" data-is-svg="false" data-is-svg-mask="false" data-image-zoomed="" data-has-ssr-src="true">
-            <img src="mess.png" alt="CASHAPP" style="width:70px;height:70px;object-fit:cover;object-position:50% 50%;margin-top:-100px;"/>
-          </wix-image>
-        </a></div></li>
+
+                <div class="c-gbuddy">
+                  <span class="c-close close_chat_app">
+                    ×
+                  </span>
+                  <div class="c-brand"><img src="chat/addchat/img/addchat-logo-white.png" class="c-brand-image" style="width:25px;height:25px">
+
+                    <h3 class="c-brand-title">Lucky Winners Ve-power</h3>
+
+                  </div>
+
+                  <section class="loginWrapper">
+
+                    <ul class="tabs">
+                      <li class="active">Login</li>
+                      <li>Register</li>
+                    </ul>
+                    <ul class="tab__content">
+                      <li class="active">
+                        <div class="c-gform">
+                          <div class="c-input-group email_locator_log" >
+                            <input type="text" name="email" id="user_new_emails" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group password_locator">
+                            <input type="password" name="password" id="user_new_password" placeholder="Password" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group sent_password" style="display:none;">
+                            <input type="password" name="sent_password" id="sent_password" placeholder="Enter token Sent on your mail" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group enter_new_password" style="display:none;">
+                            <input type="password" name="enter_new_password" id="enter_new_password" placeholder="New Password" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group reset_email_log" style="display:none;">
+                            <input type=text name="email" id="reset_email_log" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <p id="login_return_messege" ></p>
+                          <button type="button" id="user_guest_login" class="c-button c-btn-block c-btn-neutral">Start Chat</button> <br>
+                          <button type="button" id="request_new_password" style="display:none;" class="c-button c-btn-block btn btn-danger c-btn-neutral">Request New Password</button> <br>
+                          <button type="button" id="change_your_password" style="display:none;" class="c-button c-btn-block btn btn-danger c-btn-neutral">Change Password</button> <br>
+                          <button type="button" id="login_instead" style="display:none;" class="c-button  btn btn-danger c-btn-neutral" >Login Instead</button> <br><br>
+                          <button class="btn btn-warning btn-sm text-center form-control " id="password_forgots">Forgot Password</button>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="c-gform">
+                          <div class="c-input-group full_name_locator_reg">
+                            <input type="text" name="fullname" placeholder="Fullname" class="c-input " id="user_new_name_reg" aria-required="true" required  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group email_locator_reg" >
+                            <input type="text" name="email" id="user_new_emails_reg" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <div class="c-input-group password_locator_reg">
+                            <input type="password" name="password" id="user_new_password_reg" placeholder="Password" class="c-input " aria-required="true"  aria-invalid="false">
+                          </div>
+                          <button type="button" id="user_guest_login_reg" class="c-button c-btn-block c-btn-neutral">Start Chat</button> <br>
+                        </div>
+                      </li>
+                    </ul>
+
+                  </section>
+
+                </div>
+              </div> </div></div>
+
+
             
-          </ul>
 
 
-    <ul style="list-style-type:none;">
-                  <li>   <li> <div id="addchat-bubble" class="c-animate"><div class="c-bubble-inner">
-        <div class="chat_botton">
-          <a href="https://telegram.org/" target="_blank"> <img class="" src="../upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png" style="height:50px;" alt=""></a></div>  </div></div>
-        </li></li>
-      
-          </ul>
 
 
-
-
-
-                                                <div id="addchat-bot" style="display: none;" class="c-animate">
-
-                                                  <div class="c-toast c-animate  c-toast-error"><span class="c-toast-icon"></span>
-
-
-                                                    <p class="c-toast-text"></p>
-                                                  </div>
-                                                  <div class="c-chatbox c-active">
-                                                    <div class="c-guestbox c-active">
-
-
-                                                      <div class="c-gbuddy">
-                                                        <span class="c-close close_chat_app">
-                                                          ×
-                                                        </span>
-                                                        <div class="c-brand"><img src="chat/addchat/img/addchat-logo-white.png" class="c-brand-image" style="width:25px;height:25px">
-
-                                                          <h3 class="c-brand-title">Lucky Winners Ve-power</h3>
-
-                                                        </div>
-
-                                                        <section class="loginWrapper">
-
-                                                          <ul class="tabs">
-                                                            <li class="active">Login</li>
-                                                            <li>Register</li>
-                                                          </ul>
-
-                                                          <ul class="tab__content">
-                                                            <li class="active">
-                                                              <div class="c-gform">
-
-                                                                <div class="c-input-group email_locator_log" >
-                                                                  <input type="text" name="email" id="user_new_emails" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
-                                                                </div>
-                                                                <div class="c-input-group password_locator">
-                                                                  <input type="password" name="password" id="user_new_password" placeholder="Password" class="c-input " aria-required="true"  aria-invalid="false">
-
-                                                                </div>
-                                                                <div class="c-input-group sent_password" style="display:none;">
-                                                                  <input type="password" name="sent_password" id="sent_password" placeholder="Enter token Sent on your mail" class="c-input " aria-required="true"  aria-invalid="false">
-
-                                                                </div>
-                                                                <div class="c-input-group enter_new_password" style="display:none;">
-                                                                  <input type="password" name="enter_new_password" id="enter_new_password" placeholder="New Password" class="c-input " aria-required="true"  aria-invalid="false">
-
-                                                                </div>
-
-
-                                                                <div class="c-input-group reset_email_log" style="display:none;">
-                                                                  <input type=text name="email" id="reset_email_log" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
-                                                                </div>
-
-                                                                <p id="login_return_messege" ></p>
-                                                                <button type="button" id="user_guest_login" class="c-button c-btn-block c-btn-neutral">Start Chat</button> <br>
-                                                                <button type="button" id="request_new_password" style="display:none;" class="c-button c-btn-block btn btn-danger c-btn-neutral">Request New Password</button> <br>
-                                                                <button type="button" id="change_your_password" style="display:none;" class="c-button c-btn-block btn btn-danger c-btn-neutral">Change Password</button> <br>
-                                                                <button type="button" id="login_instead" style="display:none;" class="c-button  btn btn-danger c-btn-neutral" >Login Instead</button> <br><br>
-                                                                <button class="btn btn-warning btn-sm text-center form-control " id="password_forgots">Forgot Password</button>
-
-                                                              </div>
-                                                            </li>
-                                                            <li>
-                                                              <div class="c-gform">
-
-                                                                <div class="c-input-group full_name_locator_reg">
-                                                                  <input type="text" name="fullname" placeholder="Fullname" class="c-input " id="user_new_name_reg" aria-required="true" required  aria-invalid="false">
-                                                                </div>
-
-
-                                                                <div class="c-input-group email_locator_reg" >
-
-                                                                  <input type="text" name="email" id="user_new_emails_reg" placeholder="Email" class="c-input " aria-required="true"  aria-invalid="false">
-                                                                </div>
-                                                                <div class="c-input-group password_locator_reg">
-                                                                  <input type="password" name="password" id="user_new_password_reg" placeholder="Password" class="c-input " aria-required="true"  aria-invalid="false">
-
-                                                                </div>
-
-
-
-                                                                <button type="button" id="user_guest_login_reg" class="c-button c-btn-block c-btn-neutral">Start Chat</button> <br>
-
-                                                              </div>
-                                                            </li>
-                                                          </ul>
-
-                                                        </section>
-
-                                                      </div>
-                                                    </div> </div></div>
-
-
-                                                  
-
-
-
-
-                                                  <script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-                                                  <script  type="module" src="chat/addchat/js/tezchat.js"></script>
-
-                                                  <script type="text/javascript">
-
-                                                  $("#addchat-bubble").click(function(){
-                                                    $("#addchat-bot").show();
-                                                  });
-                                                  $("#password_forgots").click(function(){
-
-                                                    $(".password_locator").hide();
-                                                    $(".email_locator_log").hide();
-                                                    $("#user_guest_login").hide();
-                                                    $(".reset_email_log").show();
-                                                    $('.sent_password').hide();
-                                                    $('#change_your_password').hide();
-                                                    $("#login_instead").show();
-                                                    $('#request_new_password').prop('disabled', false);
-                                                    $("#request_new_password").show();
-                                                  });
-                                                  $("#login_instead").click(function(){
-
-                                                    $(".password_locator").show();
-                                                    $(".email_locator_log").show();
-
-                                                    $("#user_guest_login").show();
-                                                    $(".reset_email_log").hide();
-                                                    $("#login_instead").hide();
-                                                    $("#sent_password").hide();
-                                                    $("#change_your_password").hide();
-                                                    $("#enter_new_password").hide();
-                                                    $("#request_new_password").hide();
-                                                  });
-
-                                                  $(".close_chat_app").click(function(){
-                                                    $("#addchat-bot").hide();
-
-
-                                                    $("#addchat-bot_forgot").hide();
-                                                  });
-
-
-
-                                                  $('.c-buddy .c-close').click( function(){
-                                                    $('.c-messeges').html('');
-                                                  });
-
-                                                  $('#user_guest_login_reg').click( function(){
-                                                    var base_url='index.html';
-
-                                                    var uri=base_url+'new_user_register';
-                                                    if($("#user_new_name_reg").val() != '' && $("#user_new_emails_reg").val() != '' && $("#user_new_password_reg").val() !=''){
-                                                      var form_data = new FormData();
-                                                      form_data.append('name', $("#user_new_name_reg").val());
-                                                      form_data.append('email', $("#user_new_emails_reg").val());
-                                                      form_data.append('password', $("#user_new_password_reg").val());
-                                                      $.ajax({
-                                                        dataType : "json",
-                                                        type : "post",
-                                                        cache: false,
-                                                        contentType: false,
-                                                        processData: false,
-                                                        data : form_data,
-                                                        url: uri,
-                                                        success:function(data)
-                                                        {
-                                                          if (data.status=='1') {
-                                                            document.location.href = data.redirect;
-                                                          }else{
-                                                            $('#login_return_messege').html(data.message);
-                                                          }
-                                                        }
-                                                      });
-                                                    }else{
-                                                      alert('Check Details. Something Missing');
-                                                    }
-                                                    //} //else
-                                                  });
-
-                                                  $('#user_guest_login').click( function(){
-                                                    var base_url='index.html';
-
-                                                    var uri=base_url+'new_user_login';
-                                                    if( $("#user_new_emails").val() != '' && $("#user_new_password").val() !=''){
-                                                      var form_data = new FormData();
-                                                      form_data.append('email', $("#user_new_emails").val());
-                                                      form_data.append('password', $("#user_new_password").val());
-                                                      $.ajax({
-                                                        dataType : "json",
-                                                        type : "post",
-                                                        cache: false,
-                                                        contentType: false,
-                                                        processData: false,
-                                                        data : form_data,
-                                                        url: uri,
-                                                        success:function(data)
-                                                        {
-                                                          if (data.status=='1') {
-                                                            document.location.href = data.redirect;
-                                                          }else{
-                                                            $('#login_return_messege').html(data.message);
-                                                          }
-                                                        }
-                                                      });
-                                                    }else{
-                                                      alert('Check Details');
-                                                    }
-                                                    //} //else
-                                                  });
-
-                                                  $('#request_new_password').on('click', function(){
-                                                    var base_urls='index.html';
-                                                    $('#request_new_password').prop('disabled', true);
-                                                    var uri=base_urls+'get_new_password';
-                                                    var email=  $("#reset_email_log").val();
-                                                    if (email !='') {
-
-
-                                                      var form_data = new FormData();
-                                                      form_data.append('email', email);
-                                                      $.ajax({
-                                                        dataType : "json",
-                                                        type : "post",
-                                                        cache: false,
-                                                        contentType: false,
-                                                        processData: false,
-                                                        data : form_data,
-                                                        url: uri,
-                                                        success:function(data)
-                                                        {
-                                                          if (data.status=='1') {
-
-                                                            $('#login_return_messege').html(data.message);
-
-                                                            $('.enter_new_password').show();
-                                                            $('.sent_password').show();
-                                                            $('.sent_password').show();
-                                                            $('#reset_email_log').hide();
-                                                            $('#request_new_password').prop('disabled', false);
-                                                            $('#request_new_password').hide();
-                                                            $('#change_your_password').show();
-
-
-                                                          }else{
-                                                            $('#login_return_messege').html(data.message);
-                                                          }
-
-                                                        }
-                                                      });
-                                                    }else{
-                                                      alert('Enter Email to request new password');
-                                                    }
-                                                  });
-
-                                                  $('#change_your_password').on('click', function(){
-                                                    var base_urls='index.html';
-                                                    $('#request_new_password').prop('disabled', true);
-                                                    var uri=base_urls+'update_new_password';
-                                                    var new_pass=  $("#enter_new_password").val();
-                                                    var sent=  $("#sent_password").val();
-                                                    var em =  $("#reset_email_log").val();
-                                                    if (em !='') {
-
-
-                                                      var form_data = new FormData();
-                                                      form_data.append('password', new_pass);
-                                                      form_data.append('email', em);
-                                                      form_data.append('sent', sent);
-                                                      $.ajax({
-                                                        dataType : "json",
-                                                        type : "post",
-                                                        cache: false,
-                                                        contentType: false,
-                                                        processData: false,
-                                                        data : form_data,
-                                                        url: uri,
-                                                        success:function(data)
-                                                        {
-                                                          if (data.status=='1') {
-
-                                                            document.location.href = data.redirect;
-                                                            $('#enter_new_password').show();
-                                                            $('#reset_email_log').hide();
-                                                            $('#request_new_password').hide();
-                                                            $('#change_your_password').show();
-
-
-                                                          }else{
-                                                            $('#login_return_messege').html(data.message);
-                                                          }
-
-                                                        }
-                                                      });
-                                                    }else{
-                                                      alert('Enter Email to request new password');
-                                                    }
-                                                  });
-
-                                                  $(document).ready(function(){
-
-                                                    // Variables
-                                                    var clickedTab = $(".tabs > .active");
-                                                    var tabWrapper = $(".tab__content");
-                                                    var activeTab = tabWrapper.find(".active");
-                                                    var activeTabHeight = activeTab.outerHeight();
-
-                                                    // Show tab on page load
-                                                    activeTab.show();
-
-                                                    // Set height of wrapper on page load
-                                                    tabWrapper.height(activeTabHeight);
-
-                                                    $(".tabs > li").on("click", function() {
-
-                                                      // Remove class from active tab
-                                                      $(".tabs > li").removeClass("active");
-
-                                                      // Add class active to clicked tab
-                                                      $(this).addClass("active");
-
-                                                      // Update clickedTab variable
-                                                      clickedTab = $(".tabs .active");
-
-                                                      // fade out active tab
-                                                      activeTab.fadeOut(250, function() {
-
-                                                        // Remove active class all tabs
-                                                        $(".tab__content > li").removeClass("active");
-
-                                                        // Get index of clicked tab
-                                                        var clickedTabIndex = clickedTab.index();
-
-                                                        // Add class active to corresponding tab
-                                                        $(".tab__content > li").eq(clickedTabIndex).addClass("active");
-
-                                                        // update new active tab
-                                                        activeTab = $(".tab__content > .active");
-
-                                                        // Update variable
-                                                        activeTabHeight = activeTab.outerHeight();
-
-                                                        // Animate height of wrapper to new tab height
-                                                        tabWrapper.stop().delay(1).animate({
-                                                          height: activeTabHeight
-                                                        }, 1, function() {
-
-                                                          // Fade in active tab
-                                                          activeTab.delay(50).fadeIn(250);
-
-                                                        });
-                                                      });
-                                                    });
-                                                  });
-
-
-                                                  </script>
-
-                                                </body>
-
-
-                                                
-<!-- Mirrored from luckywinnerspower.com/cashapp by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Jan 2024 05:23:08 GMT -->
-</html>
-  
+            <script src="../ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+            <script  type="module" src="chat/addchat/js/tezchat.js"></script>
+
+            <script type="text/javascript">
+
+            $("#addchat-bubble").click(function(){
+              $("#addchat-bot").show();
+            });
+            $("#password_forgots").click(function(){
+
+              $(".password_locator").hide();
+              $(".email_locator_log").hide();
+              $("#user_guest_login").hide();
+              $(".reset_email_log").show();
+              $('.sent_password').hide();
+              $('#change_your_password').hide();
+              $("#login_instead").show();
+              $('#request_new_password').prop('disabled', false);
+              $("#request_new_password").show();
+            });
+            $("#login_instead").click(function(){
+
+              $(".password_locator").show();
+              $(".email_locator_log").show();
+
+              $("#user_guest_login").show();
+              $(".reset_email_log").hide();
+              $("#login_instead").hide();
+              $("#sent_password").hide();
+              $("#change_your_password").hide();
+              $("#enter_new_password").hide();
+              $("#request_new_password").hide();
+            });
+
+            $(".close_chat_app").click(function(){
+              $("#addchat-bot").hide();
+
+
+              $("#addchat-bot_forgot").hide();
+            });
+
+
+
+            $('.c-buddy .c-close').click( function(){
+              $('.c-messeges').html('');
+            });
+
+            $('#user_guest_login_reg').click( function(){
+              var base_url='index.html';
+
+              var uri=base_url+'new_user_register';
+              if($("#user_new_name_reg").val() != '' && $("#user_new_emails_reg").val() != '' && $("#user_new_password_reg").val() !=''){
+                var form_data = new FormData();
+                form_data.append('name', $("#user_new_name_reg").val());
+                form_data.append('email', $("#user_new_emails_reg").val());
+                form_data.append('password', $("#user_new_password_reg").val());
+                $.ajax({
+                  dataType : "json",
+                  type : "post",
+                  cache: false,
+                  contentType: false,
+                  processData: false,
+                  data : form_data,
+                  url: uri,
+                  success:function(data)
+                  {
+                    if (data.status=='1') {
+                      document.location.href = data.redirect;
+                    }else{
+                      $('#login_return_messege').html(data.message);
+                    }
+                  }
+                });
+              }else{
+                alert('Check Details. Something Missing');
+              }
+              //} //else
+            });
+
+            $('#user_guest_login').click( function(){
+              var base_url='index.html';
+
+              var uri=base_url+'new_user_login';
+              if( $("#user_new_emails").val() != '' && $("#user_new_password").val() !=''){
+                var form_data = new FormData();
+                form_data.append('email', $("#user_new_emails").val());
+                form_data.append('password', $("#user_new_password").val());
+                $.ajax({
+                  dataType : "json",
+                  type : "post",
+                  cache: false,
+                  contentType: false,
+                  processData: false,
+                  data : form_data,
+                  url: uri,
+                  success:function(data)
+                  {
+                    if (data.status=='1') {
+                      document.location.href = data.redirect;
+                    }else{
+                      $('#login_return_messege').html(data.message);
+                    }
+                  }
+                });
+              }else{
+                alert('Check Details');
+              }
+              //} //else
+            });
+
+            $('#request_new_password').on('click', function(){
+              var base_urls='index.html';
+              $('#request_new_password').prop('disabled', true);
+              var uri=base_urls+'get_new_password';
+              var email=  $("#reset_email_log").val();
+              if (email !='') {
+
+
+                var form_data = new FormData();
+                form_data.append('email', email);
+                $.ajax({
+                  dataType : "json",
+                  type : "post",
+                  cache: false,
+                  contentType: false,
+                  processData: false,
+                  data : form_data,
+                  url: uri,
+                  success:function(data)
+                  {
+                    if (data.status=='1') {
+
+                      $('#login_return_messege').html(data.message);
+
+                      $('.enter_new_password').show();
+                      $('.sent_password').show();
+                      $('.sent_password').show();
+                      $('#reset_email_log').hide();
+                      $('#request_new_password').prop('disabled', false);
+                      $('#request_new_password').hide();
+                      $('#change_your_password').show();
+
+
+                    }else{
+                      $('#login_return_messege').html(data.message);
+                    }
+
+                  }
+                });
+              }else{
+                alert('Enter Email to request new password');
+              }
+            });
+
+            $('#change_your_password').on('click', function(){
+              var base_urls='index.html';
+              $('#request_new_password').prop('disabled', true);
+              var uri=base_urls+'update_new_password';
+              var new_pass=  $("#enter_new_password").val();
+              var sent=  $("#sent_password").val();
+              var em =  $("#reset_email_log").val();
+              if (em !='') {
+
+
+                var form_data = new FormData();
+                form_data.append('password', new_pass);
+                form_data.append('email', em);
+                form_data.append('sent', sent);
+                $.ajax({
+                  dataType : "json",
+                  type : "post",
+                  cache: false,
+                  contentType: false,
+                  processData: false,
+                  data : form_data,
+                  url: uri,
+                  success:function(data)
+                  {
+                    if (data.status=='1') {
+
+                      document.location.href = data.redirect;
+                      $('#enter_new_password').show();
+                      $('#reset_email_log').hide();
+                      $('#request_new_password').hide();
+                      $('#change_your_password').show();
+
+
+                    }else{
+                      $('#login_return_messege').html(data.message);
+                    }
+
+                  }
+                });
+              }else{
+                alert('Enter Email to request new password');
+              }
+            });
+
+            $(document).ready(function(){
+
+              // Variables
+              var clickedTab = $(".tabs > .active");
+              var tabWrapper = $(".tab__content");
+              var activeTab = tabWrapper.find(".active");
+              var activeTabHeight = activeTab.outerHeight();
+
+              // Show tab on page load
+              activeTab.show();
+
+              // Set height of wrapper on page load
+              tabWrapper.height(activeTabHeight);
+
+              $(".tabs > li").on("click", function() {
+
+                // Remove class from active tab
+                $(".tabs > li").removeClass("active");
+
+                // Add class active to clicked tab
+                $(this).addClass("active");
+
+                // Update clickedTab variable
+                clickedTab = $(".tabs .active");
+
+                // fade out active tab
+                activeTab.fadeOut(250, function() {
+
+                  // Remove active class all tabs
+                  $(".tab__content > li").removeClass("active");
+
+                  // Get index of clicked tab
+                  var clickedTabIndex = clickedTab.index();
+
+                  // Add class active to corresponding tab
+                  $(".tab__content > li").eq(clickedTabIndex).addClass("active");
+
+                  // update new active tab
+                  activeTab = $(".tab__content > .active");
+
+                  // Update variable
+                  activeTabHeight = activeTab.outerHeight();
+
+                  // Animate height of wrapper to new tab height
+                  tabWrapper.stop().delay(1).animate({
+                    height: activeTabHeight
+                  }, 1, function() {
+
+                    // Fade in active tab
+                    activeTab.delay(50).fadeIn(250);
+
+                  });
+                });
+              });
+            });
+
+
+
+            if($("#addchat-bot").length != 0) {
+              window.history.pushState('forward', null, 'index.html#forward');
+
+              $(window).on('popstate', function() {
+                $('#addchat-bot').remove();
+              });
+            }
+
+
+            </script>
+
+          </body>
+
+
+          </html>
