@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html class="">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Pesan Tersimpan 2.0, Pesan Suara Sekali Putar, dan 8 Fitur Lainnya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pesan Tersimpan 2.0, Pesan Suara Sekali Putar, dan 8 Fitur Lainnya">
+    <meta property="og:image" content="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="Sepanjang bulan Januari, kami menerapkan 10 fitur baru di Telegram – termasuk peningkatan fungsi Pesan Tersimpan, pesan suara dan pesan video sekali putar yang dihapus otomatis setelah dimainkan, tanda telah dibaca yang menunjukkan waktu pembacaan pesan, dan sebagainya.">
+    
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" />
+    <meta property="fb:app_id" content="254098051407226">
+    <meta property="vk:app_id" content="3782569">
+    <meta name="apple-itunes-app" content="app-id=686449807">
+    <meta name="telegram:channel" content="@telegram">
+    <link rel="canonical" href="id" />
+    <link rel="icon" type="image/svg+xml" href="../../img/website_icona87f.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png">
+<link rel="alternate icon" href="../../img/favicon.ico" type="image/x-icon" />
+    <link href="../../css/bootstrap.mineccb.css?3" rel="stylesheet">
+    
+    <link href="../../css/telegram0116.css?236" rel="stylesheet" media="screen">
+  </head>
+  <body class="preload">
+    <div id="fb-root"></div>
+    <div class="tl_page_wrap">
+      <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right"><li class="dropdown top_lang_select"><a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#"><i class="dev_top_lang_icon"></i>KO <b class="minicaret"></b></a>
+<ul class="dropdown-menu"><li class=""><a href="id07ff.html?setln=en">English</a></li><li class="long "><a href="id99eb.html?setln=id">Bahasa Indonesia</a></li><li class="long "><a href="id304e.html?setln=ms">Bahasa Melayu</a></li><li class=""><a href="idffbd.html?setln=de">Deutsch</a></li><li class=""><a href="ida14e.html?setln=es">Español</a></li><li class=""><a href="id5a86.html?setln=fr">Français</a></li><li class=""><a href="ide8d8.html?setln=it">Italiano</a></li><li class=""><a href="ida919.html?setln=nl">Nederlands</a></li><li class=""><a href="id947e.html?setln=uz">O‘zbek</a></li><li class=""><a href="idd0e2.html?setln=pl">Polski</a></li><li class="long "><a href="idd3b6.html?setln=pt-br">Português (Brasil)</a></li><li class=""><a href="idace4.html?setln=tr">Türkçe</a></li><li class=""><a href="idddc8.html?setln=be">Беларуская</a></li><li class=""><a href="id4c6d.html?setln=ru">Русский</a></li><li class=""><a href="id9d90.html?setln=uk">Українська</a></li><li class=""><a href="id5bec.html?setln=ar">العربية</a></li><li class=""><a href="id55e9.html?setln=fa">فارسی</a></li><li class="chosen "><a href="idc1a4.html?setln=ko">한국어</a></li></ul></li><li class="navbar-twitter hidden-xs"><a href="../../../twitter.com/telegram.31.delayed" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i> 트위터</a></li></ul>
+<ul class="nav navbar-nav">
+  <li class=""><a href="../../index.html">홈</a></li>
+  <li class=""><a href="../../faq.html">자주묻는질문</a></li>
+  <li class=""><a href="../../apps.html">앱</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/mtproto.html">프로토콜</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix tl_page_container ">
+        <div class="tl_page">
+          <div class="tl_contest_page_wrap">
+	<div class="tl_blog_side_blog"><div class="side_blog_wrap">
+  <div class="side_blog">
+    <a href="../../blog.html" class="side_blog_header">최신 뉴스</a>
+    <div class="side_blog_entries">
+      <a href="ko" class="side_blog_entry">
+  <div class="side_blog_date">1월 31</div>
+  <div class="side_blog_title">저장한 메시지 2.0, 일회용 음성 메시지 및 8가지 추가 기능</div>
+</a><a href="../calls-and-bots/ko" class="side_blog_entry">
+  <div class="side_blog_date">12월 31</div>
+  <div class="side_blog_title">다채로운 전화, 타노스 스냅 효과 및 대규모 봇 업데이트</div>
+</a><a href="../posts-in-stories-and-more/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">12월 23</div>
+  <div class="side_blog_title">채널 외관, 스토리 게시 등</div>
+</a><a href="../similar-channels/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 30</div>
+  <div class="side_blog_title">비슷한 채널, 스토리 재게시 및 9가지 추가기능</div>
+</a><a href="../giveaways/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 6</div>
+  <div class="side_blog_title">채널 경품 및 무료 프리미엄</div>
+</a><a href="../reply-revolution/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">10월 28</div>
+  <div class="side_blog_title">답장 2.0, 조절 가능한 링크 미리보기, 이름 색상 등</div>
+</a><a href="../channel-stories/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">9월 22</div>
+  <div class="side_blog_title">채널 스토리, 한번보기 미디어 등</div>
+</a>
+    </div>
+  </div>
+</div></div>
+  <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">Pesan Tersimpan 2.0, Pesan Suara Sekali Putar, dan 8 Fitur Lainnya</h1>
+  <blockquote class="blog_lang_original"><a href="../new-saved-messages-and-9-more78d4.html?ln=r">Baca pengumuman resmi dalam Bahasa Inggris</a></blockquote>
+  <div id="dev_page_content"><div class="blog_side_image_wrap">
+    <picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;"><div style="padding-top:100%"></div><source type="application/x-tgsticker" srcset="/file/400780400700/2/s4RfrBnFXdo.36365/fab0fec1984fa4f25b"><img src="../../file/400780400700/3/V6NykbvkYDM.24165.png/0c8feada0114bff63a.html" /></picture>
+</div>
+
+
+<div class="blog_wide_image">
+    <a href="../../file/400780400843/3/cTXM2R3IhSI.573636/c35128de12fc2055e8.html" target="_blank"><img src="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" srcset="/file/400780400843/3/cTXM2R3IhSI.573636/c35128de12fc2055e8, 1200w" title="" alt="TITLE"/></a>
+</div>
+
+<p>Sepanjang bulan Januari, kami menerapkan <strong>10 fitur baru</strong> di Telegram – termasuk peningkatan fungsi <strong>Pesan Tersimpan</strong>, <strong>pesan suara</strong> dan <strong>pesan video sekali putar</strong> yang dihapus otomatis setelah dimainkan, <strong>tanda telah dibaca</strong> yang menunjukkan waktu pembacaan pesan, dan sebagainya.</p>
+<h3><a class="anchor" name="pesan-tersimpan-2-0" href="#pesan-tersimpan-2-0"><i class="anchor-icon"></i></a>Pesan Tersimpan 2.0</h3>
+<p>Setiap pengguna Telegram memiliki obrolan bernama <strong>Pesan Tersimpan</strong>, yang biasanya digunakan sebagai tempat catatan, <a href="../../../t.me/TelegramTipsID/7.html">pengingat</a>, dan pesan yang diteruskan dari obrolan lain.</p>
+<p>Pembaruan ini mengubah Pesan Tersimpan menjadi sistem penyimpanan yang canggih untuk tautan, media, dan penanda halaman <em>(bookmark)</em> Anda. Anda sekarang dapat melihat pesan yang disimpan <strong>berdasarkan obrolan</strong> atau <strong>sebagai daftar</strong>, merapikannya dengan <strong>tagar</strong>, dan menggunakan <strong>tab &#39;Tersimpan&#39;</strong> baru dalam Media Bersama untuk mengakses pesan Anda yang disimpan dari obrolan tertentu.</p>
+<h3><a class="anchor" name="lihat-pesan-tersimpan-berdasarkan-obrolan" href="#lihat-pesan-tersimpan-berdasarkan-obrolan"><i class="anchor-icon"></i></a>Lihat Pesan Tersimpan Berdasarkan Obrolan</h3>
+<p>Dengan mode <strong>Lihat sebagai Obrolan</strong>, Anda dapat melihat <strong>daftar obrolan</strong> pesan yang telah Anda teruskan. Obrolan-obrolan ini akan berisi semua pesan yang Anda teruskan ke Pesan Tersimpan, dipilah baik dari <strong>pengguna</strong>, <strong>grup</strong>, maupun <strong>channel</strong>. Anda juga dapat <strong>menyematkan</strong> obrolan ke atas.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400478/2/uL6jyM_Rc-A.60004/12ced6ec0bb72357de.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400241/1/6pWSOybmZBE.5195538.mp4/bf9c8c4b14a4a776df.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Untuk beralih mode/tampilan, cukup <strong>ketuk judul</strong> di Pesan Tersimpan Anda. Anda juga dapat mengetuk ⋮ / ⋯ dan memilih <em>&#39;Lihat sebagai Pesan&#39;</em> atau <em>&#39;Lihat sebagai Obrolan&#39;</em>. Dalam hal ini, Pesan Tersimpan akan ditampilkan dalam mode yang dipilih saat Anda membukanya lagi.</p>
+</blockquote>
+<h3><a class="anchor" name="tagar-untuk-pesan-tersimpan" href="#tagar-untuk-pesan-tersimpan"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Tagar untuk Pesan Tersimpan</h3>
+<p>Agar lebih terorganisir, Anda dapat melampirkan <strong>beberapa tagar</strong> di Pesan Tersimpan sehingga lebih mudah dicari saat <strong>disaring</strong> menggunakan Pencarian.</p>
+<p>Karena tag berbentuk <strong>emoji</strong>, melampirkan tagar semudah menambahkan reaksi, namun tagar juga dapat memiliki <strong>nama</strong>. Tagar sudah tersedia bagi semua pengguna Telegram Premium.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400864/2/RSAZ4cSDmO8.59368/cdf1671e1cbc4c6860.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400373/3/n-93Viyz3Ew.6291100.mp4/a3b85c5d73f374263b.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Untuk mencari di Pesan Tersimpan Anda, ketuk ikon <img class="emoji" src="../../img/emoji/40/F09F948D.html" width="20" height="20" alt="🔍" /> di pojok atas. Tagar Anda akan muncul <strong>di bawah bilah pencarian</strong>. Cukup ketuk untuk <strong>menyaring pencarian Anda</strong> berdasarkan tagar tersebut.</p>
+</blockquote>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8.html" target="_blank"><img src="../../file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8.html" title="TITLE" alt="TITLE" srcset="/file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8 , 2x" /></a>
+</div>
+
+<h3><a class="anchor" name="pesan-tersimpan-dalam-media-bersama" href="#pesan-tersimpan-dalam-media-bersama"><i class="anchor-icon"></i></a>Pesan Tersimpan dalam Media Bersama</h3>
+<p>Obrolan, grup, dan channel semuanya memiliki <strong>bagian media bersama</strong> untuk mengakses foto, tautan, musik, dan berkas lainnya dengan cepat. Pembaruan ini juga menambahkan tab <em>&#39;Tersimpan&#39;</em> baru, yang berisi pesan apa pun dari obrolan tersebut yang telah Anda teruskan ke <strong>Pesan Tersimpan</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400269/2/6WYVBiZDw_g.70414/7e7bded7043a1ffb6e.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400015/2/rrI7V8OAtcE.7055932.mp4/108a875977bee2579c.html" type="video/mp4">
+ </video>
+</div>
+
+
+<h3><a class="anchor" name="peningkatan-fungsi-pencarian" href="#peningkatan-fungsi-pencarian"><i class="anchor-icon"></i></a>Peningkatan Fungsi Pencarian</h3>
+<p>Kami telah meningkatkan fungsi <strong>pencarian</strong> di semua obrolan, mempermudah <strong>navigasi</strong> hasil penelusuran dan meringkas hasil dalam bentuk <strong>daftar terpadu</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac.html" target="_blank"><img src="../../file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac.html" title="TITLE" alt="TITLE" srcset="/file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac , 2x" /></a>
+</div>
+
+<blockquote>
+<p><strong>Petunjuk:</strong> Cara tercepat untuk membuka pencarian di obrolan adalah dengan mengetuk dan menahan judulnya.</p>
+</blockquote>
+<h3><a class="anchor" name="pesan-suara-dan-video-sekali-putar" href="#pesan-suara-dan-video-sekali-putar"><i class="anchor-icon"></i></a>Pesan Suara dan Video Sekali Putar</h3>
+<p><a href="../channel-stories.html#view-once-media">Pengaturan Sekali Lihat</a> kini tersedia untuk <strong>pesan suara</strong> dan <strong>pesan video</strong>. Pesan hanya dapat diputar <strong>satu kali</strong> sebelum <strong>dihapus secara otomatis</strong> dengan animasi yang akan membuat Anda ingin mengirimnya berulang kali.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400604/1/LJ7wTbUw_ew.46378/64255dcfeb14c5378d.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400389/1/tTAVnxYn4dw.5024020.mp4/758d3c50c240aef813.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Untuk merekam pesan putar sekali, tahan lalu <strong>geser atas</strong> untuk mengunci rekaman, lalu ketuk <em>ikon sekali putar</em> sebelum mengirim.</p>
+</blockquote>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400751/1/5GCoE0wQ_OM.45018/e1a3612b2da28e1c30.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400440/1/T2optaNxUk0.2192394.mp4/f18e221d66477d5249.html" type="video/mp4">
+ </video>
+</div>
+
+<h3><a class="anchor" name="jeda-dan-lanjutkan-perekaman" href="#jeda-dan-lanjutkan-perekaman"><i class="anchor-icon"></i></a>Jeda dan Lanjutkan Perekaman</h3>
+<p>Saat merekam <strong>pesan suara</strong> atau <strong>pesan video</strong>, kini Anda dapat <strong>menjeda</strong> lalu <strong>melanjutkan perekaman</strong> nanti, yang mungkin lebih rapi daripada mengirim beberapa pesan.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400806/1/T72rzuVjXGE.47238/345159944702016c78.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400271/1/AhKPltHfrA4.3215146.mp4/707ffe1eaa4a76148d.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Untuk menjeda, <strong>geser atas</strong> untuk mengunci rekaman dan ketuk tombol jeda <img class="emoji" src="../../img/emoji/40/E28FB8.html" width="20" height="20" alt="⏸️" />. Untuk melanjutkan perekaman, cukup ketuk lagi ikon mikrofon atau kamera.</p>
+</blockquote>
+<h3><a class="anchor" name="waktu-dibaca-dalam-obrolan-pribadi" href="#waktu-dibaca-dalam-obrolan-pribadi"><i class="anchor-icon"></i></a>Waktu Dibaca dalam Obrolan Pribadi</h3>
+<p>Saat Anda mengirim pesan, 1 centang (✓) berarti <strong>terkirim</strong>, sedangkan 2 centang (✓✓) berarti <strong>sudah dibaca</strong>. Dalam <strong>obrolan pribadi</strong>, Anda sekarang dapat melihat <strong>waktu</strong> pesan Anda dibuka oleh mitra obrolan <strong>secara akurat</strong>.</p>
+<p>Waktu dibaca memiliki <strong>pengaturan privasi terperinci</strong> tersendiri, berdasarkan setelan privasi status <strong>Terakhir Terlihat</strong> Anda. Jika Anda menyembunyikan waktu Terakhir Terlihat Anda dari pengguna tertentu, Anda juga dapat memilih untuk <strong>menyembunyikan status baca Anda</strong> dari mereka.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400409/1/yk-IgLz1dgA.50867/4f95f2f5f46dce17fd.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400656/2/f6EP_-q0Lfo.2829266.mp4/d779d39ec96fe423ce.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Dengan tujuan privasi, waktu dibaca dalam obrolan pribadi hanya terlihat selama <strong>7 hari</strong> sebelum dihapus – sama seperti <a href="../chat-themes-interactive-emoji-read-receipts.html#read-receipts-in-small-groups">dalam grup</a>.</p>
+</blockquote>
+<h3><a class="anchor" name="waktu-terakhir-terlihat-dan-dibaca-satu-arah" href="#waktu-terakhir-terlihat-dan-dibaca-satu-arah"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Waktu Terakhir Terlihat dan Dibaca Satu Arah</h3>
+<p>Secara bawaan, menyembunyikan waktu Terakhir Terlihat atau Dibaca Anda dari pengguna lain juga <strong>menyembunyikan waktu mereka</strong> dari Anda. Namun, dengan Telegram Premium, Anda dapat menyembunyikan waktu Terakhir Terlihat dan Dibaca Anda dan tetap melihat waktu orang lain yang <strong>membagikan waktu mereka dengan Anda</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400181/1/0T16aYnNCsY.43521/de90edf49abb2fdad5.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400696/1/xRpVvl9Tnhw.5087375.mp4/530ffb098854e7d38d.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Jika Anda <strong>menyembunyikan</strong> waktu Terakhir Terlihat atau Dibaca Anda, waktu tersebut <strong>selalu disembunyikan</strong> dari <strong>semua pengguna</strong>, termasuk pengguna Premium.</p>
+</blockquote>
+<h3><a class="anchor" name="perizinan-pesan-pribadi" href="#perizinan-pesan-pribadi"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Perizinan Pesan Pribadi</h3>
+<p>Dengan pembaruan ini, pengguna Premium dapat memilih siapa yang dapat <strong>mengirimkan pesan</strong> – entah <em>&#39;Semua Orang&#39;</em> atau <em>&#39;Kontak Saya dan Pengguna Premium&#39;</em>. Jika diaktifkan, pengguna yang bukan kontak atau tidak memiliki Premium tidak dapat <strong>memulai obrolan dengan Anda</strong>. Meski demikian, mereka masih dapat membalas jika Anda <strong>mengirim pesan terlebih dahulu</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400808/1/dXloRW3or30.41153/61db9f529950ff5a90.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400955/2/T7K6wk8MGDc.3557105.mp4/92e204dcbb57df3484.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Jika Anda menerima pesan yang tidak diinginkan dari pengguna lain, terdapat tombol di bagian atas obrolan untuk <strong>memblokir pengguna</strong> dan memperingatkan moderator kami.</p>
+</blockquote>
+<h3><a class="anchor" name="pemuatan-lebih-cepat-dan-cerita-berkualitas-tinggi" href="#pemuatan-lebih-cepat-dan-cerita-berkualitas-tinggi"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Pemuatan Lebih Cepat dan Cerita Berkualitas Tinggi</h3>
+<p>Cerita video sekarang akan dimuat <strong>4x lebih cepat</strong>. Kami juga telah menambahkan pengaturan baru bagi pengguna Premium untuk melihat cerita video dalam <strong>kualitas yang lebih tinggi</strong>, jika mereka tidak keberatan dengan lintas jaringan tambahan.</p>
+<p>Seluruh pengguna kini dapat mengendalikan <strong>kecepatan pemutaran</strong> dalam cerita video.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061.html" target="_blank"><img src="../../file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061.html" title="TITLE" alt="TITLE" srcset="/file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061 , 2x" /></a>
+</div>
+
+
+<h3><a class="anchor" name="desain-baru-untuk-kontak-bersama" href="#desain-baru-untuk-kontak-bersama"><i class="anchor-icon"></i></a>Desain Baru untuk Kontak Bersama</h3>
+<p>Pesan dengan kontak bersama kini terlihat lebih baik dan mencerminkan <a href="../reply-revolution.html#account-colors">ikon warna dan emoji</a> yang dipilih pengguna dalam Pengaturan Tampilan mereka.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400504/2/w0bP-CzdYZQ.303027/ecb657ccc7df54dcf9.html" target="_blank"><img src="../../file/400780400931/2/MYZgQ7VW72s.304022/68c24d6e1d277223bd.html" title="TITLE" alt="TITLE" srcset="/file/400780400931/2/MYZgQ7VW72s.304022/68c24d6e1d277223bd , 2x" /></a>
+</div>
+
+<h3><a class="anchor" name="peningkatan-fitur-pesan-video-di-ios" href="#peningkatan-fitur-pesan-video-di-ios"><i class="anchor-icon"></i></a>Peningkatan Fitur Pesan Video di iOS</h3>
+<p>Selain <a href="#pesan-suara-dan-video-sekali-putar">mode putar sekali</a> dan fungsi <a href="#jeda-dan-lanjutkan-perekaman">jeda &amp; lanjutkan</a>, kami telah meningkatkan fitur perekaman pesan video di iOS. Kini, Anda dapat menikmati kualitas video yang lebih jernih, beralih antara kamera depan dan belakang dengan lebih cepat, dan mengurangi guncangan kamera.</p>
+<h3><a class="anchor" name="ikon-aplikasi-di-macos" href="#ikon-aplikasi-di-macos"><i class="anchor-icon"></i></a>Ikon Aplikasi di macOS</h3>
+<p>Dengan <a href="../../../macos.telegram.org/index.html">versi langsung</a> Telegram untuk macOS, Anda dapat memilih dari <strong>15 ikon</strong> untuk membuat aplikasi Anda lebih sesuai dengan tema atau lebih menonjol.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400332/2/xIu_3oOdAR4.52897/25de959ae4a209022b.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400158/3/k_DmnNvT7mw.5262034.mp4/ce46113736f5bf0b95.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Untuk mengganti ikon aplikasi Anda, buka <em>Pengaturan &gt; Tampilan &gt; Ikon Aplikasi</em>.</p>
+</blockquote>
+<div><br></div>
+
+<p><em>31 Januari 2024<br>Tim Telegram</em></p>
+</div>
+  
+</div>
+  <div class="tl_main_share clearfix">
+    <a href="../../../t.me/share/urlfe94.html?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fnew-saved-messages-and-9-more%2Fid&amp;text=Sepanjang%20bulan%20Januari%2C%20kami%20menerapkan%2010%20fitur%20baru%20di%20Telegram%20%E2%80%93%C2%A0termasuk%20peningkatan%20fungsi%20Pesan%20Tersimpan%2C%20pesan%20suara%20dan%20pesan%20video%20sekali%20putar%20yang%20dihapus%20otomatis%20setelah%20dimainkan%2C%20tanda%20telah%20dibaca%20yang%20menunjukkan%20waktu%20pembacaan%20pesan%2C%20dan%20sebagainya." class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Sepanjang bulan Januari, kami menerapkan 10 fitur baru di Telegram – termasuk peningkatan fungsi Pesan Tersimpan, pesan suara dan pesan video sekali putar yang dihapus otomatis setelah dimainkan, tanda telah dibaca yang menunjukkan waktu pembacaan pesan, dan sebagainya." data-url="id"><i class="tl_telegram_share_icon"></i><span class="tl_telegram_share_label" target="_blank">전달하기</span></a>
+    <a href="../../../twitter.com/share.html" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Sepanjang bulan Januari, kami menerapkan 10 fitur baru di Telegram – termasuk peningkatan fungsi Pesan Tersimpan, pesan suara dan pesan video sekali putar yang dihapus otomatis setelah dimainkan, tanda telah dibaca yang menunjukkan waktu pembacaan pesan, dan sebagainya." data-url="https://telegram.org/blog/new-saved-messages-and-9-more/id" data-via="Telegram">트윗 <span class="tl_twitter_share_cnt"></span></a>
+  </div>
+  
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+  <h3 class="tl_main_recent_news_header">
+    <a href="../../blog.html">다른 뉴스</a>
+  </h3>
+  <div class="tl_main_recent_news_cards clearfix">
+    <a class="dev_blog_card_link_wrap" href="id"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Pesan Tersimpan 2.0, Pesan Suara Sekali Putar, dan 8 Fitur Lainnya</h4>
+    <div class="dev_blog_card_lead">Sepanjang bulan Januari, kami menerapkan 10 fitur baru di Telegram –&nbsp;termasuk peningkatan fungsi Pesan Tersimpan, pesan suara dan pesan…</div>
+  </div>
+  <div class="dev_blog_card_date">1월 31, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../calls-and-bots/id"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Panggilan Penuh Warna, Efek Jentikan Thanos, dan Pembaruan Epik untuk Bot</h4>
+    <div class="dev_blog_card_lead">Pembaruan Telegram ke-10 pada tahun 2023 ini membawa beberapa peningkatan untuk fitur panggilan dengan desain yang lebih berwarna** yang…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 31, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../posts-in-stories-and-more/id.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400793/2/VkvuurAxFVg.277684/e7d479017cc416a63a.html" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Tampilan Channel, Postingan dalam Cerita, dan Sebagainya</h4>
+    <div class="dev_blog_card_lead">Dalam pembaruan Telegram dekat hari Natal ini, channel dapat memasang latar, status emoji, dan logo profil. Sementara itu, pengguna dapat…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 23, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../similar-channels/id.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400090/1/RprIYMnvOUg.277465/d9f6381d8e3088a8f7.html" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Channel Serupa, Posting Ulang Cerita, dan 9 Fitur Lainnya</h4>
+    <div class="dev_blog_card_lead">Pembaruan hari ini memperkenalkan beberapa fitur baru, mulai dari pencarian channel serupa sesuai yang Anda ikuti, repost cerita dari teman…</div>
+  </div>
+  <div class="dev_blog_card_date">11월 30, 2023</div>
+</div></a>
+  </div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>텔레그램</h5>
+      <div class="footer_telegram_description"></div>
+      텔레그램은 보안과 속도에 주안점을 둔 클라우드-기반 모바일과 데스크톱 매시징 앱입니다.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+      <ul>
+        <li><a href="../../faq.html">자주묻는질문</a></li>
+        <li><a href="../../privacy.html">개인정보보호</a></li>
+        <li><a href="../../press.html">언론</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#모바일 앱">모바일 앱</a></h5>
+      <ul>
+        <li><a href="../../../apps.apple.com/us/app/telegram-messenger/id686449807.html">아이폰/아이패드</a></li>
+        <li><a href="../../android.html">안드로이드</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">모바일웹</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#데스크톱 앱">데스크톱 앱</a></h5>
+      <ul>
+        <li><a href="../../../desktop.telegram.org/index.html">PC/Mac/Linux</a></li>
+        <li><a href="../../../macos.telegram.org/index.html">macOS</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">웹브라우저</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+      <ul>
+        <li><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+        <li><a href="../../../external.html?link=http://translations.telegram.org/">번역</a></li>
+        <li><a href="../../../external.html?link=http://instantview.telegram.org/">실시간 보기</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../blog.html">블로그</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html">앱</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../press.html">언론</a></h5>
+    </div>
+  </div>
+</div>
+    <script src="../../js/main67c6.js?47"></script>
+    <script src="../../js/tgstickerc16a.js?31"></script>
+
+    <script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("\uc704\ub85c");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 20.59ms -->

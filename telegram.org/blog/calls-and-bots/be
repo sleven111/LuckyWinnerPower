@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html class="">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў">
+    <meta property="og:image" content="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="Дзясятае абнаўленне Telegram у 2023 дадае абноўленыя выклікі з лепшай прадукцыйнасцю і меншым спажываннем зараду батарэі, новы эфект распылення для выдаленых паведамленняў, а таксама найвялікшае абнаўленне ботаў у гісторыі Telegram – і шмат чаго яшчэ.">
+    
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg" />
+    <meta property="fb:app_id" content="254098051407226">
+    <meta property="vk:app_id" content="3782569">
+    <meta name="apple-itunes-app" content="app-id=686449807">
+    <meta name="telegram:channel" content="@telegram">
+    <link rel="canonical" href="be" />
+    <link rel="icon" type="image/svg+xml" href="../../img/website_icona87f.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png">
+<link rel="alternate icon" href="../../img/favicon.ico" type="image/x-icon" />
+    <link href="../../css/bootstrap.mineccb.css?3" rel="stylesheet">
+    
+    <link href="../../css/telegram0116.css?236" rel="stylesheet" media="screen">
+  </head>
+  <body class="preload">
+    <div id="fb-root"></div>
+    <div class="tl_page_wrap">
+      <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right"><li class="dropdown top_lang_select"><a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#"><i class="dev_top_lang_icon"></i>KO <b class="minicaret"></b></a>
+<ul class="dropdown-menu"><li class=""><a href="be07ff.html?setln=en">English</a></li><li class="long "><a href="be99eb.html?setln=id">Bahasa Indonesia</a></li><li class="long "><a href="be304e.html?setln=ms">Bahasa Melayu</a></li><li class=""><a href="beffbd.html?setln=de">Deutsch</a></li><li class=""><a href="bea14e.html?setln=es">Español</a></li><li class=""><a href="be5a86.html?setln=fr">Français</a></li><li class=""><a href="bee8d8.html?setln=it">Italiano</a></li><li class=""><a href="bea919.html?setln=nl">Nederlands</a></li><li class=""><a href="be947e.html?setln=uz">O‘zbek</a></li><li class=""><a href="bed0e2.html?setln=pl">Polski</a></li><li class="long "><a href="bed3b6.html?setln=pt-br">Português (Brasil)</a></li><li class=""><a href="beace4.html?setln=tr">Türkçe</a></li><li class=""><a href="beddc8.html?setln=be">Беларуская</a></li><li class=""><a href="be4c6d.html?setln=ru">Русский</a></li><li class=""><a href="be9d90.html?setln=uk">Українська</a></li><li class=""><a href="be5bec.html?setln=ar">العربية</a></li><li class=""><a href="be55e9.html?setln=fa">فارسی</a></li><li class="chosen "><a href="bec1a4.html?setln=ko">한국어</a></li></ul></li><li class="navbar-twitter hidden-xs"><a href="../../../twitter.com/telegram.31.delayed" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i> 트위터</a></li></ul>
+<ul class="nav navbar-nav">
+  <li class=""><a href="../../index.html">홈</a></li>
+  <li class=""><a href="../../faq.html">자주묻는질문</a></li>
+  <li class=""><a href="../../apps.html">앱</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/mtproto.html">프로토콜</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix tl_page_container ">
+        <div class="tl_page">
+          <div class="tl_contest_page_wrap">
+	<div class="tl_blog_side_blog"><div class="side_blog_wrap">
+  <div class="side_blog">
+    <a href="../../blog.html" class="side_blog_header">최신 뉴스</a>
+    <div class="side_blog_entries">
+      <a href="../new-saved-messages-and-9-more/ko" class="side_blog_entry">
+  <div class="side_blog_date">1월 31</div>
+  <div class="side_blog_title">저장한 메시지 2.0, 일회용 음성 메시지 및 8가지 추가 기능</div>
+</a><a href="ko" class="side_blog_entry">
+  <div class="side_blog_date">12월 31</div>
+  <div class="side_blog_title">다채로운 전화, 타노스 스냅 효과 및 대규모 봇 업데이트</div>
+</a><a href="../posts-in-stories-and-more/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">12월 23</div>
+  <div class="side_blog_title">채널 외관, 스토리 게시 등</div>
+</a><a href="../similar-channels/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 30</div>
+  <div class="side_blog_title">비슷한 채널, 스토리 재게시 및 9가지 추가기능</div>
+</a><a href="../giveaways/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 6</div>
+  <div class="side_blog_title">채널 경품 및 무료 프리미엄</div>
+</a><a href="../reply-revolution/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">10월 28</div>
+  <div class="side_blog_title">답장 2.0, 조절 가능한 링크 미리보기, 이름 색상 등</div>
+</a><a href="../channel-stories/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">9월 22</div>
+  <div class="side_blog_title">채널 스토리, 한번보기 미디어 등</div>
+</a>
+    </div>
+  </div>
+</div></div>
+  <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў</h1>
+  <blockquote class="blog_lang_original"><a href="../calls-and-bots78d4.html?ln=r">Чытаць арыгінальны допіс па-англійску</a></blockquote>
+  <div id="dev_page_content"><div class="blog_side_image_wrap">
+    <picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;"><div style="padding-top:100%"></div><source type="application/x-tgsticker" srcset="/file/400780400423/1/iyD040gndqE.20141/d4e9b606d8e68fe101"><img src="../../file/400780400423/2/vnpioab1528.35540.png/bfe06a4cf2afa58631.html" /></picture>
+</div>
+
+<div class="blog_wide_image">
+    <a href="../../file/400780400221/2/oOLhqtR2vyI.604178/ca43915c59507e5b7e.html" target="_blank"><img src="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg" srcset="/file/400780400221/2/oOLhqtR2vyI.604178/ca43915c59507e5b7e" title="" alt="Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў"/></a>
+</div>
+
+<p><strong>Дзясятае абнаўленне Telegram у 2023</strong> дадае абноўленыя выклікі з <strong>лепшай прадукцыйнасцю</strong> і <strong>меншым спажываннем зараду батарэі</strong>, новы <strong>эфект распылення</strong> для выдаленых паведамленняў, а таксама <strong>найвялікшае абнаўленне ботаў</strong> у гісторыі Telegram – і шмат чаго яшчэ.</p>
+<h4><a class="anchor" name="palepshaniya-viklk" href="#palepshaniya-viklk"><i class="anchor-icon"></i></a>Палепшаныя выклікі</h4>
+<p>Выклікі ў Telegram даюць карыстальнікам магчымасць <strong>размаўляць</strong>, уключаць сваю <strong>камеру</strong> або <strong>паказваць экран</strong>, усё адразу – на <a href="../../apps.html">кожнай платформе</a> і з поўнай абаронай праз <strong>скразное шыфраванне</strong>.</p>
+<p>У гэтым абнаўленні мы <strong>поўнасцю змянілі дызайн</strong> выклікаў, дадалі <strong>новыя анімацыі</strong> і <strong>прыгожыя фоны</strong>, якія <strong>дынамічна змяняюцца</strong> у залежнасці ад стану выкліка. Усе гэтыя змены прывялі да <strong>зніжанага выкарыстання рэсурсаў прылады</strong> і, такім чынам, <strong>менш спажываюць зарад батарэі</strong> і <strong>паляпшаюць прадукцыйнасць</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400323/2/DYpnZmqqTek.118700/0c72f42785fba5ca37.html" style="max-width: 600px;" title="TITLE" alt="Палепшаныя выклікі">
+  <source src="../../file/400780400791/4/uMM0y9CtC5c.7970812.mp4/a2e26abc2456c30a96.html" type="video/mp4">
+ </video>
+</div>
+
+<p>Мы таксама выправілі сотні хібаў і глюкаў інтэрфэйсу – і павысілі <strong>якасць выклікаў</strong>. У 2024 мы збіраемся яшчэ больш працаваць над <strong>сувяззю</strong> і <strong>якасцю гуку</strong>.</p>
+<h4><a class="anchor" name="efekt-raspilennya-dlya-vidalenih-pavedamlennya" href="#efekt-raspilennya-dlya-vidalenih-pavedamlennya"><i class="anchor-icon"></i></a>Эфект распылення для выдаленых паведамленняў</h4>
+<p>Мінулым месяцам мы паэксперыментавалі з <strong>эфектам распылення</strong> на iOS, які паказваўся для <a href="../similar-channels/be.html#efekt-pstrichk-tanasa-dlya-ios">паведамленняў, выдаленых аўтаматычна</a> — і гэта было захапляльна (і энергаэфектыўна).</p>
+<p>Гэтая анімацыя цяпер даступная <strong>і на iOS, і на Android</strong>, і прайграецца пасля <strong>выдалення любога паведамлення</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400161/3/9uydIJmT8MA.62643/eb6868b537b9899b2c.html" style="max-width: 600px;" title="TITLE" alt="Эфект распылення для выдаленых паведамленняў">
+  <source src="../../file/400780400133/3/lRGEWvZ6Vhc.5446848.mp4/abcb67ea50ec08e42f.html" type="video/mp4">
+ </video>
+</div>
+
+<h4><a class="anchor" name="epchnae-abnalenne-bota-reaktsi-shmat-chago-yashche" href="#epchnae-abnalenne-bota-reaktsi-shmat-chago-yashche"><i class="anchor-icon"></i></a>Эпічнае абнаўленне ботаў: рэакцыі і шмат чаго яшчэ</h4>
+<p><strong>Бясплатная платформа ботаў</strong> Telegram дазваляе распрацоўшчыкам падключаць любы сервіс у экасістэму Telegram – ад простых чат-ботаў да магутных <a href="#">міні-праграм</a>, якія могуць замяняць цэлыя вэб-сайты.</p>
+<p>Пад канец гэтага года мы прадстаўляем <a href="../../../core.telegram.org/bots/api.html#december-XX-2023">найвялікшае абнаўленне</a> платформы ботаў у гісторыі Telegram. Сярод дзясяткаў новых магчымасцяў, ботам цяпер даступны <strong>рэакцыі на паведамленні</strong> і <strong>кіраванне рэакцыямі</strong>, <strong>цытатамі</strong>, і <strong>спасылкамі</strong>, а таксама адпраўка адказаў <strong>у іншыя чаты</strong> або тэмы.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400091/2/X0rnQi14TnE.49641/568c4848bb7c36d53c.html" style="max-width: 600px;" title="" alt="Эпічнае абнаўленне ботаў: рэакцыі і шмат чаго яшчэ">
+  <source src="../../file/400780400519/1/FJ7DhuYI6ts.1542364.mp4/ec924c13c0e2e8d1ab.html" type="video/mp4">
+ </video>
+</div>
+
+<p>Таксама гэтае абнаўленне дазваляе ботам ведаць вынікі <a href="../giveaways/be.html">розыгрышаў</a>, і правяраць, ці <a href="../../faq_premium.html#q-how-do-i-get-boosts">падтрымлівае</a> пэўны карыстальнік той канал, у якім бот з’яўляецца кіраўніком.</p>
+<blockquote>
+<p>З поўным спісам зменаў распрацоўшчыкі могуць даведацца ў гэтым <a href="../../../core.telegram.org/bots/api-changelog.html#december-30-2023">эпічным апісанні абнаўлення</a>.</p>
+</blockquote>
+<p>Калі вам цікава распрацоўваць ботаў і міні-праграмы, то запрашаем у наш <a href="../../../core.telegram.org/bots.html">дапаможнік па ботах</a>, дзе вы можаце даведацца больш і нават <a href="../../../core.telegram.org/bots/tutorial.html">паспрабаваць пакрокавы навучальны матэрыял</a>.</p>
+<p>Што ж, на гэтае абнаўленне і на гэты год хопіць. Можаце цяпер выклікаць сяброў, каб павіншаваць іх – або зрабіце бота, які ўсё гэта аўтаматызуе. Убачымся ў студзені, калі мы наробім яшчэ больш новага функцыяналу.</p>
+<div><br></div>
+
+<p><em>31 снежня, 2023<br>Каманда Telegram</em></p>
+<!--
+###Square Video, 600x600
+
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="PHOTO" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="VIDEO" type="video/mp4">
+ </video>
+</div>
+
+###Image, 600x600
+
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="LARGE" target="_blank"><img src="SMALL" title="TITLE" alt="TITLE" srcset="LARGE , 2x" /></a>
+</div>
+--></div>
+  
+</div>
+  <div class="tl_main_share clearfix">
+    <a href="../../../t.me/share/urlb6f3.html?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fcalls-and-bots%2Fbe&amp;text=%D0%94%D0%B7%D1%8F%D1%81%D1%8F%D1%82%D0%B0%D0%B5%20%D0%B0%D0%B1%D0%BD%D0%B0%D1%9E%D0%BB%D0%B5%D0%BD%D0%BD%D0%B5%20Telegram%20%D1%83%202023%20%D0%B3%D0%BE%D0%B4%D0%B7%D0%B5%21%20%D0%9F%D0%B0%D0%BB%D0%B5%D0%BF%D1%88%D0%B0%D0%BD%D1%8B%D1%8F%20%D0%B2%D1%8B%D0%BA%D0%BB%D1%96%D0%BA%D1%96%2C%20%D1%8D%D1%84%D0%B5%D0%BA%D1%82%20%D1%80%D0%B0%D1%81%D0%BF%D1%8B%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F%20%D1%96%20%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D1%8B%D1%8F%D0%BD%D0%B0%D0%BB%20%D0%B1%D0%BE%D1%82%D0%B0%D1%9E" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Дзясятае абнаўленне Telegram у 2023 годзе&#33; Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў" data-url="be"><i class="tl_telegram_share_icon"></i><span class="tl_telegram_share_label" target="_blank">전달하기</span></a>
+    <a href="../../../twitter.com/share.html" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Дзясятае абнаўленне Telegram у 2023 годзе&#33; Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў" data-url="https://telegram.org/blog/calls-and-bots/be" data-via="Telegram">트윗 <span class="tl_twitter_share_cnt"></span></a>
+  </div>
+  
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+  <h3 class="tl_main_recent_news_header">
+    <a href="../../blog.html">다른 뉴스</a>
+  </h3>
+  <div class="tl_main_recent_news_cards clearfix">
+    <a class="dev_blog_card_link_wrap" href="../new-saved-messages-and-9-more/be.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Захаваныя паведамленні 2.0, аднаразовыя галасавыя і відэапаведамленні, і яшчэ 8 новых магчымасцей</h4>
+    <div class="dev_blog_card_lead">На працягу студзеня мы дадалі 10 новых магчымасцей у Telegram – сярод якіх палепшаныя захаваныя…</div>
+  </div>
+  <div class="dev_blog_card_date">1월 31, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="be"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Палепшаныя выклікі, эфект распылення і новы функцыянал ботаў</h4>
+    <div class="dev_blog_card_lead">Дзясятае абнаўленне Telegram у 2023 дадае абноўленыя выклікі з лепшай прадукцыйнасцю і меншым спажываннем зараду батарэі, новы эфект распылення…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 31, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../posts-in-stories-and-more/be"><div class="dev_blog_card_wrap">
+  
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Налады выгляду каналаў, адпраўка допісаў у гісторыях і шмат чаго яшчэ</h4>
+    <div class="dev_blog_card_lead">З сённяшнім абнаўленнем любы карыстальнік зможа апублікоўваць допісы з каналаў як гісторыі, каналы атрымаюць пашыраныя налады выгляду,…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 23, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../similar-channels/be.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400090/1/RprIYMnvOUg.277465/d9f6381d8e3088a8f7.html" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Падобныя каналы, публікацыя гісторый іншых аўтараў і яшчэ 9 іншых магчымасцей</h4>
+    <div class="dev_blog_card_lead">Сённяшняе абнаўленне дадае новыя магчымасці для пошуку каналаў на адну і тую ж тэму, публікацыі гісторый іншых аўтараў і для запісу ві…</div>
+  </div>
+  <div class="dev_blog_card_date">11월 30, 2023</div>
+</div></a>
+  </div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>텔레그램</h5>
+      <div class="footer_telegram_description"></div>
+      텔레그램은 보안과 속도에 주안점을 둔 클라우드-기반 모바일과 데스크톱 매시징 앱입니다.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+      <ul>
+        <li><a href="../../faq.html">자주묻는질문</a></li>
+        <li><a href="../../privacy.html">개인정보보호</a></li>
+        <li><a href="../../press.html">언론</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#모바일 앱">모바일 앱</a></h5>
+      <ul>
+        <li><a href="../../../apps.apple.com/us/app/telegram-messenger/id686449807.html">아이폰/아이패드</a></li>
+        <li><a href="../../android.html">안드로이드</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">모바일웹</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#데스크톱 앱">데스크톱 앱</a></h5>
+      <ul>
+        <li><a href="../../../desktop.telegram.org/index.html">PC/Mac/Linux</a></li>
+        <li><a href="../../../macos.telegram.org/index.html">macOS</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">웹브라우저</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+      <ul>
+        <li><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+        <li><a href="../../../external.html?link=http://translations.telegram.org/">번역</a></li>
+        <li><a href="../../../external.html?link=http://instantview.telegram.org/">실시간 보기</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../blog.html">블로그</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html">앱</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../press.html">언론</a></h5>
+    </div>
+  </div>
+</div>
+    <script src="../../js/main67c6.js?47"></script>
+    <script src="../../js/tgstickerc16a.js?31"></script>
+
+    <script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("\uc704\ub85c");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 14.83ms -->

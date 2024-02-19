@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html class="">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos">
+    <meta property="og:image" content="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="Ao longo de janeiro, adicionamos 10 novos recursos ao Telegram – incluindo Mensagens Salvas melhoradas, mensagens de voz e mensagens de vídeo de reprodução única que se apagam após tocar, recibos de leitura detalhados que mostram em que horário a sua mensagem foi lida, e muito mais.">
+    
+    <meta name="twitter:card" content="summary_large_image" /><meta name="twitter:image" content="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" />
+    <meta property="fb:app_id" content="254098051407226">
+    <meta property="vk:app_id" content="3782569">
+    <meta name="apple-itunes-app" content="app-id=686449807">
+    <meta name="telegram:channel" content="@telegram">
+    <link rel="canonical" href="pt-br" />
+    <link rel="icon" type="image/svg+xml" href="../../img/website_icona87f.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="../../img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../img/favicon-16x16.png">
+<link rel="alternate icon" href="../../img/favicon.ico" type="image/x-icon" />
+    <link href="../../css/bootstrap.mineccb.css?3" rel="stylesheet">
+    
+    <link href="../../css/telegram0116.css?236" rel="stylesheet" media="screen">
+  </head>
+  <body class="preload">
+    <div id="fb-root"></div>
+    <div class="tl_page_wrap">
+      <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right"><li class="dropdown top_lang_select"><a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#"><i class="dev_top_lang_icon"></i>KO <b class="minicaret"></b></a>
+<ul class="dropdown-menu"><li class=""><a href="pt-br07ff.html?setln=en">English</a></li><li class="long "><a href="pt-br99eb.html?setln=id">Bahasa Indonesia</a></li><li class="long "><a href="pt-br304e.html?setln=ms">Bahasa Melayu</a></li><li class=""><a href="pt-brffbd.html?setln=de">Deutsch</a></li><li class=""><a href="pt-bra14e.html?setln=es">Español</a></li><li class=""><a href="pt-br5a86.html?setln=fr">Français</a></li><li class=""><a href="pt-bre8d8.html?setln=it">Italiano</a></li><li class=""><a href="pt-bra919.html?setln=nl">Nederlands</a></li><li class=""><a href="pt-br947e.html?setln=uz">O‘zbek</a></li><li class=""><a href="pt-brd0e2.html?setln=pl">Polski</a></li><li class="long "><a href="pt-brd3b6.html?setln=pt-br">Português (Brasil)</a></li><li class=""><a href="pt-brace4.html?setln=tr">Türkçe</a></li><li class=""><a href="pt-brddc8.html?setln=be">Беларуская</a></li><li class=""><a href="pt-br4c6d.html?setln=ru">Русский</a></li><li class=""><a href="pt-br9d90.html?setln=uk">Українська</a></li><li class=""><a href="pt-br5bec.html?setln=ar">العربية</a></li><li class=""><a href="pt-br55e9.html?setln=fa">فارسی</a></li><li class="chosen "><a href="pt-brc1a4.html?setln=ko">한국어</a></li></ul></li><li class="navbar-twitter hidden-xs"><a href="../../../twitter.com/telegram.31.delayed" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i> 트위터</a></li></ul>
+<ul class="nav navbar-nav">
+  <li class=""><a href="../../index.html">홈</a></li>
+  <li class=""><a href="../../faq.html">자주묻는질문</a></li>
+  <li class=""><a href="../../apps.html">앱</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+  <li class="hidden-xs "><a href="../../../core.telegram.org/mtproto.html">프로토콜</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix tl_page_container ">
+        <div class="tl_page">
+          <div class="tl_contest_page_wrap">
+	<div class="tl_blog_side_blog"><div class="side_blog_wrap">
+  <div class="side_blog">
+    <a href="../../blog.html" class="side_blog_header">최신 뉴스</a>
+    <div class="side_blog_entries">
+      <a href="ko" class="side_blog_entry">
+  <div class="side_blog_date">1월 31</div>
+  <div class="side_blog_title">저장한 메시지 2.0, 일회용 음성 메시지 및 8가지 추가 기능</div>
+</a><a href="../calls-and-bots/ko" class="side_blog_entry">
+  <div class="side_blog_date">12월 31</div>
+  <div class="side_blog_title">다채로운 전화, 타노스 스냅 효과 및 대규모 봇 업데이트</div>
+</a><a href="../posts-in-stories-and-more/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">12월 23</div>
+  <div class="side_blog_title">채널 외관, 스토리 게시 등</div>
+</a><a href="../similar-channels/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 30</div>
+  <div class="side_blog_title">비슷한 채널, 스토리 재게시 및 9가지 추가기능</div>
+</a><a href="../giveaways/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">11월 6</div>
+  <div class="side_blog_title">채널 경품 및 무료 프리미엄</div>
+</a><a href="../reply-revolution/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">10월 28</div>
+  <div class="side_blog_title">답장 2.0, 조절 가능한 링크 미리보기, 이름 색상 등</div>
+</a><a href="../channel-stories/ko.html" class="side_blog_entry">
+  <div class="side_blog_date">9월 22</div>
+  <div class="side_blog_title">채널 스토리, 한번보기 미디어 등</div>
+</a>
+    </div>
+  </div>
+</div></div>
+  <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos</h1>
+  <blockquote class="blog_lang_original"><a href="../new-saved-messages-and-9-more78d4.html?ln=r">Leia o anúncio original em Inglês</a></blockquote>
+  <div id="dev_page_content"><div class="blog_side_image_wrap">
+    <picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;"><div style="padding-top:100%"></div><source type="application/x-tgsticker" srcset="/file/464001523/1/w-RLVIRC_uk.13374/1c1cac6caab829fe46"><img src="../../file/464001523/2/n3XOa4Jx1qM.15250.png/4c275a004242e5ee80.html" /></picture>
+</div>
+
+
+<div class="blog_wide_image">
+    <a href="../../file/400780400843/3/cTXM2R3IhSI.573636/c35128de12fc2055e8.html" target="_blank"><img src="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" srcset="/file/400780400843/3/cTXM2R3IhSI.573636/c35128de12fc2055e8, 1200w" title="" alt="TITLE"/></a>
+</div>
+
+<p>Ao longo de janeiro, adicionamos <strong>10 novos recursos</strong> ao Telegram – incluindo <strong>Mensagens Salvas</strong> melhoradas, <strong>mensagens de voz</strong> e <strong>mensagens de vídeo</strong> de reprodução única que se apagam após tocar, <strong>recibos de leitura</strong> detalhados que mostram <strong>em que horário</strong> a sua mensagem foi lida, e <em>muito</em> mais.</p>
+<h3><a class="anchor" name="mensagens-salvas-2-0" href="#mensagens-salvas-2-0"><i class="anchor-icon"></i></a>Mensagens Salvas 2.0</h3>
+<p>Cada usuário do Telegram tem uma conversa chamada <strong>Mensagens Salvas</strong> – um lugar para anotações, <a href="../../../t.me/TelegramTipsBR/110.html">lembretes</a> e mensagens encaminhadas de outros chats.</p>
+<p>Esta atualização transforma as Mensagens Salvas em um sistema poderoso de armazenamento para os seus links, mídias e favoritos. Você agora pode ver as suas mensagens salvas <strong>por chat</strong> ou <strong>como uma lista</strong>, organizá-las com <strong>etiquetas</strong> e usar a nova <strong>guia de &#39;Salvos&#39;</strong> nas Mídias Compartilhadas para acessar as mensagens que você salvou de qualquer chat em particular.</p>
+<h3><a class="anchor" name="ver-mensagens-salvas-por-conversa" href="#ver-mensagens-salvas-por-conversa"><i class="anchor-icon"></i></a>Ver Mensagens Salvas por Conversa</h3>
+<p>O novo modo <strong>&#39;Ver como Chats</strong> permite que você veja uma <strong>lista de chats</strong> dos quais você encaminhou mensagens. Esses chats terão todas as mensagens que você encaminhou para as Mensagens Salvas de <strong>usuários</strong>, <strong>grupos</strong> e <strong>canais</strong>. Você pode <strong>fixar</strong> qualquer um desses chats ao topo.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400478/2/uL6jyM_Rc-A.60004/12ced6ec0bb72357de.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400241/1/6pWSOybmZBE.5195538.mp4/bf9c8c4b14a4a776df.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para trocar de visualização, basta <strong>tocar no título</strong> nas suas Mensagens Salvas. Você também pode tocar em ⋮ ou ⋯ e selecionar <em>&#39;Ver como Mensagens&#39;</em> ou <em>&#39;Ver como Chats&#39;</em> – nesse caso, as Mensagens Salvas serão mostradas no modo selecionado na próxima vez que você as abrir.</p>
+</blockquote>
+<h3><a class="anchor" name="etiquetas-para-as-mensagens-salvas" href="#etiquetas-para-as-mensagens-salvas"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Etiquetas para as Mensagens Salvas</h3>
+<p>Para ter ainda mais organização, você pode adicionar <strong>múltiplas etiquetas</strong> às suas Mensagens Salvas, permitindo que você <strong>filtre</strong> elas rapidamente na Busca.</p>
+<p>Como as etiquetas são baseadas em <strong>emojis</strong>, adicionar uma etiqueta é tão fácil quanto reagir a uma mensagem, mas as etiquetas também podem ter <strong>nomes</strong>. As etiquetas já estão disponíveis para todos os usuários do Telegram Premium.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400864/2/RSAZ4cSDmO8.59368/cdf1671e1cbc4c6860.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400373/3/n-93Viyz3Ew.6291100.mp4/a3b85c5d73f374263b.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para buscar nas suas Mensagens Salvas, toque no ícone <img class="emoji" src="../../img/emoji/40/F09F948D.html" width="20" height="20" alt="🔍" /> no canto superior. As suas etiquetas irão aparecer <strong>abaixo da barra de busca</strong> – basta tocar para <strong>filtrar a sua busca</strong> por essa etiqueta.</p>
+</blockquote>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8.html" target="_blank"><img src="../../file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8.html" title="TITLE" alt="TITLE" srcset="/file/400780400143/4/ZkCVXVnQxW4.331628/9a33a9279175f390a8 , 2x" /></a>
+</div>
+
+
+<h3><a class="anchor" name="mensagens-salvas-nas-midias-compartilhadas" href="#mensagens-salvas-nas-midias-compartilhadas"><i class="anchor-icon"></i></a>Mensagens Salvas nas Mídias Compartilhadas</h3>
+<p>Todos os chats, como conversas, grupos e canais, têm uma <strong>seção de mídias compartilhadas</strong> para acessar facilmente fotos, links, músicas e mais. Esta atualização adiciona uma nova aba de <em>&#39;Salvos&#39;</em> também, contendo mensagens que você encaminhou para as <strong>suas Mensagens Salvas</strong> a partir desse chat.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400269/2/6WYVBiZDw_g.70414/7e7bded7043a1ffb6e.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400015/2/rrI7V8OAtcE.7055932.mp4/108a875977bee2579c.html" type="video/mp4">
+ </video>
+</div>
+
+
+<h3><a class="anchor" name="busca-aprimorada" href="#busca-aprimorada"><i class="anchor-icon"></i></a>Busca Aprimorada</h3>
+<p>Aprimoramos a <strong>busca</strong> em todos os chats, e agora é mais fácil <strong>navegar</strong> pelos resultados de busca e vê-los como uma <strong>lista compacta</strong>.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac.html" target="_blank"><img src="../../file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac.html" title="TITLE" alt="TITLE" srcset="/file/400780400158/2/eSmogn80qwM.337886/c1c50954d2a607dbac , 2x" /></a>
+</div>
+
+<blockquote>
+<p><strong>Dica:</strong> o jeito mais rápido de abrir a busca em qualquer conversa é tocar e segurar no título dela.</p>
+</blockquote>
+<h3><a class="anchor" name="mensagens-de-voz-e-de-video-de-reproducao-unica" href="#mensagens-de-voz-e-de-video-de-reproducao-unica"><i class="anchor-icon"></i></a>Mensagens de Voz e de Vídeo de Reprodução Única</h3>
+<p>A <a href="../channel-stories/pt-br.html#midia-de-visualizacao-unica">opção de Visualização Única</a> agora está disponível para <strong>mensagens de voz</strong> e <strong>de vídeo</strong>. Essas mensagens só podem ser reproduzidas <strong>uma vez</strong> antes de serem <strong>apagadas automaticamente</strong> – com uma animação que fará você querer enviá-las de novo e de novo.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400450/1/AKFHLAF0VY8.47435/65ad56f16df21fcb2b.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400432/3/sb5JXHVTl1c.5021792.mp4/c5893f5e4e39b945ef.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para gravar uma mensagem de visualização única, toque e segure no ícone de gravação e depois <strong>deslize-o para cima</strong> para travar a gravação, e então toque no <em>ícone de visualização única</em> antes de enviar.</p>
+</blockquote>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400046/2/OLcvPv_Jd7k.45987/cf07b78509b9e1d2d5.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400459/1/gBvf0l5UlvY.2195122.mp4/0ec022a857195972b6.html" type="video/mp4">
+ </video>
+</div>
+
+
+<h3><a class="anchor" name="pause-e-retome-a-gravacao" href="#pause-e-retome-a-gravacao"><i class="anchor-icon"></i></a>Pause e Retome a Gravação</h3>
+<p>Ao gravar qualquer <strong>mensagem de voz</strong> ou <strong>de vídeo</strong>, agora você pode <strong>pausar</strong> e então <strong>retomar a gravação</strong> depois – em vez de enviar várias mensagens.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400045/1/b4LLhannVp8.47152/aa124e1c6967187aa9.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400103/1/mNNYvVJ1p6g.3216330.mp4/b7e693689e3f1ff9e6.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para pausar, <strong>deslize para cima</strong> para travar a gravação e toque no botão de pausa <img class="emoji" src="../../img/emoji/40/E28FB8.html" width="20" height="20" alt="⏸️" />. Para retomar a gravação, basta tocar no ícone de microfone ou câmera de novo.</p>
+</blockquote>
+<h3><a class="anchor" name="horario-de-leitura-nos-chats-privados" href="#horario-de-leitura-nos-chats-privados"><i class="anchor-icon"></i></a>Horário de Leitura nos Chats Privados</h3>
+<p>Quando você envia uma mensagem, 1 tique (✓) significa que ela foi <strong>entregue</strong>. Já 2 tiques (✓✓) significam que ela foi <strong>lida</strong> – e em <strong>chats privados</strong>, agora você pode ver o <strong>horário exato</strong> em que suas mensagens foram abertas.</p>
+<p>Os horários de leitura têm suas próprias <strong>configurações de privacidade granulares</strong>, com base nas configurações de privacidade do seu <strong>Visto por Último</strong>. Se você ocultar o horário do seu Visto por Último de determinados usuários, também pode optar por <strong>ocultar seu status de leitura</strong> deles.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400089/3/4Y91B46Gyi0.50728/a4131f21819cd91359.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400845/2/-e24X_J9IQ4.2829929.mp4/21eb0f720e65d7d40b.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para proteger a privacidade, os horários de leitura em chats privados só são visíveis por <strong>7 dias</strong> antes de serem apagados – assim como <a href="../chat-themes-interactive-emoji-read-receipts/pt-br.html#recibos-de-leitura-nos-grupos-pequenos">em grupos</a>.</p>
+</blockquote>
+<h3><a class="anchor" name="visto-por-ultimo-e-horario-de-leitura-unidirecionais" href="#visto-por-ultimo-e-horario-de-leitura-unidirecionais"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Visto por Último e Horário de Leitura Unidirecionais</h3>
+<p>Por padrão, ocultar seu visto por último ou horário de leitura de um usuário também <strong>oculta o dele</strong> de você. No entanto, com o Telegram Premium, você pode ocultar seu visto por último e horário de leitura e ainda ver os das pessoas que <strong>compartilham essas informações com você</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400494/4/HwSnOsd6M3U.42009/a75add6aee24c3b72f.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400456/4/4XubzHarUnA.5067688.mp4/262f0950247a87ecca.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Se você <strong>ocultar</strong> seu visto por último ou horário de leitura, ele será <strong>sempre oculto</strong> de <strong>todos os usuários</strong> – incluindo usuários Premium.</p>
+</blockquote>
+<h3><a class="anchor" name="permissoes-de-mensagens-privadas" href="#permissoes-de-mensagens-privadas"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Permissões de Mensagens Privadas</h3>
+<p>Com esta atualização, os usuários Premium podem selecionar quem pode <strong>enviar mensagens para eles</strong> – <em>&#39;Todos&#39;</em> ou <em>&#39;Meus Contatos e Usuários Premium&#39;</em>. Quando ativado, usuários que não são contatos ou não têm Premium não podem <strong>iniciar conversas com você</strong> – mas podem responder se você <strong>os contatar primeiro</strong>.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400592/1/aFpJFeqw32w.41649/56dba263ba1e277052.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400115/3/5KKy8EdoeHo.3539183.mp4/240a5e890f6097ba0c.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Se você receber uma mensagem indesejada de outro usuário, há um botão no topo da conversa para <strong>bloquear o usuário</strong> e alertar nossos moderadores.</p>
+</blockquote>
+<h3><a class="anchor" name="tempo-de-carregamento-mais-rapido-e-stories-em-alta-qualidade" href="#tempo-de-carregamento-mais-rapido-e-stories-em-alta-qualidade"><i class="anchor-icon"></i></a><img class="icon" src="../../file/464001305/110b0/-bpC5P3HJp4.6317/a2b79589744c739331.html" alt="Premium"> Tempo de Carregamento Mais Rápido e Stories em Alta Qualidade</h3>
+<p>Os stories de vídeo agora carregarão <strong>4 vezes mais rápido</strong>. Também adicionamos uma nova configuração para usuários Premium visualizarem stories de vídeo em <strong>alta qualidade</strong> – se não se importarem com o tráfego extra.</p>
+<p>Todos os usuários agora podem controlar a <strong>velocidade de reprodução</strong> dos stories de vídeo.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061.html" target="_blank"><img src="../../file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061.html" title="TITLE" alt="TITLE" srcset="/file/400780400108/4/zFSbyh5iCTg.360258/1314e345fd7b9f6061 , 2x" /></a>
+</div>
+
+
+<h3><a class="anchor" name="novo-design-para-contatos-compartilhados" href="#novo-design-para-contatos-compartilhados"><i class="anchor-icon"></i></a>Novo Design para Contatos Compartilhados</h3>
+<p>As mensagens com contatos compartilhados agora têm uma aparência melhor e usam as <a href="../reply-revolution/pt-br.html#cores-da-conta">cores e ícones de emoji</a> que esses usuários selecionaram nas Configurações de Aparência.</p>
+<div class="blog_image_wrap blog_wide_image_wrap">
+  <a href="../../file/400780400504/2/w0bP-CzdYZQ.303027/ecb657ccc7df54dcf9.html" target="_blank"><img src="../../file/400780400504/2/w0bP-CzdYZQ.303027/ecb657ccc7df54dcf9.html" title="TITLE" alt="TITLE" srcset="/file/400780400504/2/w0bP-CzdYZQ.303027/ecb657ccc7df54dcf9 , 2x" /></a>
+</div>
+
+
+
+<h3><a class="anchor" name="mensagens-de-video-aprimoradas-no-ios" href="#mensagens-de-video-aprimoradas-no-ios"><i class="anchor-icon"></i></a>Mensagens de Vídeo Aprimoradas no iOS</h3>
+<p>Além do <a href="#mensagens-de-voz-e-de-video-de-reproducao-unica">modo de reprodução única</a> e a possibilidade de <a href="#pause-e-retome-a-gravacao">pausar e retomar</a>, melhoramos a gravação de mensagens de vídeo no iOS. Agora, você pode aproveitar uma qualidade de vídeo mais clara, alternar entre as câmeras dianteira e traseira mais rapidamente e ter menos tremor na câmera.</p>
+<h3><a class="anchor" name="icones-do-aplicativo-no-macos" href="#icones-do-aplicativo-no-macos"><i class="anchor-icon"></i></a>Ícones do Aplicativo no macOS</h3>
+<p>Com a <a href="../../../macos.telegram.org/indexd3b6.html?setln=pt-br">versão direta</a> do Telegram para macOS, agora você pode escolher entre <strong>15 ícones</strong> para combinar com o seu tema ou se destacar no dock.</p>
+<div class="blog_video_player_wrap" style="max-width: 600px; margin: 20px auto 20px;">
+ <video class="blog_video_player tl_blog_vid_autoplay" onclick="videoTogglePlay(this)" autoplay loop controls muted poster="../../file/400780400332/2/xIu_3oOdAR4.52897/25de959ae4a209022b.html" style="max-width: 600px;" title="TITLE" alt="TITLE">
+  <source src="../../file/400780400158/3/k_DmnNvT7mw.5262034.mp4/ce46113736f5bf0b95.html" type="video/mp4">
+ </video>
+</div>
+
+<blockquote>
+<p>Para alterar o ícone do seu aplicativo, vá para <em>Configurações &gt; Aparência &gt; Ícone do Aplicativo</em>.</p>
+</blockquote>
+<div><br></div>
+
+<p><em>31 de janeiro de 2024,<br>A Equipe do Telegram.</em></p>
+</div>
+  
+</div>
+  <div class="tl_main_share clearfix">
+    <a href="../../../t.me/share/url118e.html?url=https%3A%2F%2Ftelegram.org%2Fblog%2Fnew-saved-messages-and-9-more%2Fpt-br&amp;text=Conhe%C3%A7a%20as%20Mensagens%20Salvas%202.0%2C%20Mensagens%20de%20Voz%20de%20Reprodu%C3%A7%C3%A3o%20%C3%9Anica%20e%20Mais%208%20Recursos%20nesta%20atualiza%C3%A7%C3%A3o" class="tl_telegram_share_btn" id="tl_telegram_share_btn" data-text="Conheça as Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos nesta atualização" data-url="pt-br"><i class="tl_telegram_share_icon"></i><span class="tl_telegram_share_label" target="_blank">전달하기</span></a>
+    <a href="../../../twitter.com/share.html" class="tl_twitter_share_btn" id="tl_twitter_share_btn" data-text="Conheça as Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos nesta atualização" data-url="https://telegram.org/blog/new-saved-messages-and-9-more/pt-br" data-via="Telegram">트윗 <span class="tl_twitter_share_cnt"></span></a>
+  </div>
+  
+</div>
+<div class="tl_main_recent_news_wrap tlb_other_news_wrap tl_blog_list_page_wrap">
+  <h3 class="tl_main_recent_news_header">
+    <a href="../../blog.html">다른 뉴스</a>
+  </h3>
+  <div class="tl_main_recent_news_cards clearfix">
+    <a class="dev_blog_card_link_wrap" href="pt-br"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400296/1/9NHuUm1khJE.300782/913468ac6a12d3161d.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Mensagens Salvas 2.0, Mensagens de Voz de Reprodução Única e Mais 8 Recursos</h4>
+    <div class="dev_blog_card_lead">Ao longo de janeiro, adicionamos 10 novos recursos ao Telegram – incluindo Mensagens Salvas melhoradas, mensagens de voz e mensagens de…</div>
+  </div>
+  <div class="dev_blog_card_date">1월 31, 2024</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../calls-and-bots/pt-br.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400149/1/BSY3rQYfUhs.332063/6b257c0dc671d7be2c.jpg" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Chamadas Aprimoradas, Efeito do Thanos e uma Atualização Épica nos Bots</h4>
+    <div class="dev_blog_card_lead">A 10ª atualização de 2023 do Telegram traz chamadas aprimoradas com um novo design colorido que consome menos bateria no seu telefone,…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 31, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../posts-in-stories-and-more/pt-br.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400793/2/VkvuurAxFVg.277684/e7d479017cc416a63a.html" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Aparência de Canais, Posts nos Stories e Mais</h4>
+    <div class="dev_blog_card_lead">Na atualização de Natal do Telegram, os canais podem definir papéis de parede, emojis de status e logos de perfil, os usuários podem repostar…</div>
+  </div>
+  <div class="dev_blog_card_date">12월 23, 2023</div>
+</div></a><a class="dev_blog_card_link_wrap" href="../similar-channels/pt-br.html"><div class="dev_blog_card_wrap">
+  <img class="dev_blog_card_image" src="../../file/400780400040/1/EijmUs1VeVM.569503/75ce7428d31d73bf1e.html" />
+  <div class="dev_blog_card_alltext_wrap">
+    <h4 class="dev_blog_card_title">Canais Similares, Repostagem de Stories e Mais 9 Recursos</h4>
+    <div class="dev_blog_card_lead">A atualização de hoje permite que você encontre canais similares aos que você segue, reposte stories de amigos e de canais e adicione mensagens…</div>
+  </div>
+  <div class="dev_blog_card_date">11월 30, 2023</div>
+</div></a>
+  </div>
+</div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>텔레그램</h5>
+      <div class="footer_telegram_description"></div>
+      텔레그램은 보안과 속도에 주안점을 둔 클라우드-기반 모바일과 데스크톱 매시징 앱입니다.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+      <ul>
+        <li><a href="../../faq.html">자주묻는질문</a></li>
+        <li><a href="../../privacy.html">개인정보보호</a></li>
+        <li><a href="../../press.html">언론</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#모바일 앱">모바일 앱</a></h5>
+      <ul>
+        <li><a href="../../../apps.apple.com/us/app/telegram-messenger/id686449807.html">아이폰/아이패드</a></li>
+        <li><a href="../../android.html">안드로이드</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">모바일웹</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html#데스크톱 앱">데스크톱 앱</a></h5>
+      <ul>
+        <li><a href="../../../desktop.telegram.org/index.html">PC/Mac/Linux</a></li>
+        <li><a href="../../../macos.telegram.org/index.html">macOS</a></li>
+        <li><a href="../../../external.html?link=https://web.telegram.org/">웹브라우저</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+      <ul>
+        <li><a href="../../../core.telegram.org/api.34.delayed">API</a></li>
+        <li><a href="../../../external.html?link=http://translations.telegram.org/">번역</a></li>
+        <li><a href="../../../external.html?link=http://instantview.telegram.org/">실시간 보기</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="../../faq.html">소개</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../blog.html">블로그</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../apps.html">앱</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../../core.telegram.org/index.html">플랫폼</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../../press.html">언론</a></h5>
+    </div>
+  </div>
+</div>
+    <script src="../../js/main67c6.js?47"></script>
+    <script src="../../js/tgstickerc16a.js?31"></script>
+
+    <script>initScrollVideos(true);
+mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+twitterCustomShareInit();
+blogSideImageInit();
+backToTopInit("\uc704\ub85c");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 13.51ms -->

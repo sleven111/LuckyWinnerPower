@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html class="">
+  <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Telegram Applications</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Telegram Applications">
+    <meta property="og:image" content="">
+    <meta property="og:site_name" content="Telegram">
+    <meta property="og:description" content="Telegram apps are open source and support reproducible builds. Anyone can independently verify that Telegram apps you download…">
+    
+    
+    <meta property="fb:app_id" content="254098051407226">
+    <meta property="vk:app_id" content="3782569">
+    <meta name="apple-itunes-app" content="app-id=686449807">
+    <meta name="telegram:channel" content="@telegram">
+    
+    <link rel="icon" type="image/svg+xml" href="img/website_icona87f.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="alternate icon" href="img/favicon.ico" type="image/x-icon" />
+    <link href="css/bootstrap.mineccb.css?3" rel="stylesheet">
+    
+    <link href="css/telegram0116.css?236" rel="stylesheet" media="screen">
+  </head>
+  <body class="preload">
+    <div id="fb-root"></div>
+    <div class="tl_page_wrap">
+      <div class="tl_page_head navbar navbar-static-top navbar navbar-tg">
+        <div class="navbar-inner">
+          <div class="container clearfix">
+            <ul class="nav navbar-nav navbar-right"><li class="dropdown top_lang_select"><a class="dropdown-toggle" onclick="return dropdownClick(this, event)" href="#"><i class="dev_top_lang_icon"></i>EN <b class="minicaret"></b></a>
+<ul class="dropdown-menu"><li class="chosen "><a href="apps07ff?setln=en">English</a></li><li class="long "><a href="apps99eb.html?setln=id">Bahasa Indonesia</a></li><li class="long "><a href="apps304e.html?setln=ms">Bahasa Melayu</a></li><li class=""><a href="appsffbd.html?setln=de">Deutsch</a></li><li class=""><a href="appsa14e.html?setln=es">Español</a></li><li class=""><a href="apps5a86.html?setln=fr">Français</a></li><li class=""><a href="appse8d8.html?setln=it">Italiano</a></li><li class=""><a href="appsa919.html?setln=nl">Nederlands</a></li><li class=""><a href="apps947e.html?setln=uz">O‘zbek</a></li><li class=""><a href="appsd0e2.html?setln=pl">Polski</a></li><li class="long "><a href="appsd3b6.html?setln=pt-br">Português (Brasil)</a></li><li class=""><a href="appsace4.html?setln=tr">Türkçe</a></li><li class=""><a href="appsddc8.html?setln=be">Беларуская</a></li><li class=""><a href="apps4c6d.html?setln=ru">Русский</a></li><li class=""><a href="apps9d90.html?setln=uk">Українська</a></li><li class=""><a href="apps5bec.html?setln=ar">العربية</a></li><li class=""><a href="apps55e9.html?setln=fa">فارسی</a></li><li class=""><a href="appsc1a4.html?setln=ko">한국어</a></li></ul></li><li class="navbar-twitter hidden-xs"><a href="../twitter.com/telegram.31.delayed" target="_blank" data-track="Follow/Twitter" onclick="trackDlClick(this, event)"><i class="icon icon-twitter"></i> Twitter</a></li></ul>
+<ul class="nav navbar-nav">
+  <li class=""><a href="index.html">Home</a></li>
+  <li class=""><a href="faq.html">FAQ</a></li>
+  <li class="active"><a href="apps.html">Apps</a></li>
+  <li class="hidden-xs "><a href="../core.telegram.org/api.34.delayed">API</a></li>
+  <li class="hidden-xs "><a href="../core.telegram.org/mtproto.html">Protocol</a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix tl_page_container ">
+        <div class="tl_page">
+          <div id="dev_page_content_wrap" class=" ">
+  <div class="dev_page_bread_crumbs"></div>
+  <h1 id="dev_page_title">Telegram Applications</h1>
+  
+  <div id="dev_page_content"><div class="blog_side_image_wrap">
+      <picture class="dev_page_tgsticker blog_side_image js-tgsticker_image" style="width:160px;"><div style="padding-top:100%"></div><source type="application/x-tgsticker" srcset="/file/464001916/10d68/WV7yRWbwH8c.9850/d81b3e5203746a2759"><img src="file/464001916/10d69/wMJtQWE_ZwI.17701.png/f4e97997cb38fc577a.html" /></picture>
+</div>
+
+<p><div class="dev_page_nav_wrap"></p>
+<p>Telegram apps are <strong>open source</strong> and support <a href="../core.telegram.org/reproducible-builds.html">reproducible builds</a>. Anyone can independently verify that Telegram apps you download from App Store or Google Play were built using the <a href="#source-code">exact same code</a> that we publish.</p>
+<h4><a class="anchor" name="mobile-apps" href="#mobile-apps"><i class="anchor-icon"></i></a>Mobile apps</h4>
+<ul>
+<li><a href="android.html"><i class="app-icon app-icon-android"></i>Telegram for Android</a></li>
+<li><a href="../apps.apple.com/us/app/telegram-messenger/id686449807.html"><i class="app-icon app-icon-ios"></i>Telegram for iPhone and iPad</a></li>
+</ul>
+<h4><a class="anchor" name="desktop-apps" href="#desktop-apps"><i class="anchor-icon"></i></a>Desktop apps</h4>
+<ul>
+<li><a href="../desktop.telegram.org/index.html"><i class="app-icon app-icon-desktop"></i>Telegram for Windows/Mac/Linux</a></li>
+<li><a href="../macos.telegram.org/index.html"><i class="app-icon app-icon-macos"></i>Telegram for macOS</a></li>
+</ul>
+<h4><a class="anchor" name="web-apps" href="#web-apps"><i class="anchor-icon"></i></a>Web apps</h4>
+<ul>
+<li><a href="dl/weba.html"><i class="app-icon app-icon-weba"></i>Telegram WebA</a></li>
+<li><a href="dl/webk.html"><i class="app-icon app-icon-webk"></i>Telegram WebK</a></li>
+</ul>
+<h4><a class="anchor" name="telegram-database-library-tdlib" href="#telegram-database-library-tdlib"><i class="anchor-icon"></i></a>Telegram Database Library (TDLib)</h4>
+<ul>
+<li><a href="../core.telegram.org/tdlib.html">TDLib</a> – a cross-platform client designed to facilitate creating custom apps on the Telegram platform.</li>
+<li><a href="../external.html?link=https://play.google.com/store/apps/details?id=org.thunderdog.challegram&amp;hl=en">Telegram X for Android</a> – a slick experimental Telegram client based on TDLib.</li>
+</ul>
+<h4><a class="anchor" name="unofficial-apps" href="#unofficial-apps"><i class="anchor-icon"></i></a>Unofficial apps</h4>
+<ul>
+<li><a href="../external.html?link=https://github.com/UnigramDev/Unigram">Unigram, a client optimized for Windows</a> (based on <a href="../core.telegram.org/tdlib.html">TDLib</a>) (desktop and Xbox)</li>
+<li><a href="dl/cli.html">Telegram CLI for Linux</a></li>
+<li><a href="../external.html?link=https://github.com/danog/MadelineProto">MadelineProto</a></li>
+</ul>
+<hr>
+<p></div></p>
+<h3><a class="anchor" name="source-code" href="#source-code"><i class="anchor-icon"></i></a>Source code</h3>
+<p>For the moment we are focusing on open sourcing the things that allow developers to quickly build something using our API. We have published the code for our Android, iOS, web and desktop apps (Win, macOS and Linux) as well as the Telegram Database Library.</p>
+<blockquote>
+<p>This code allows security researchers to <strong>fully evaluate</strong> our <a href="../core.telegram.org/api/end-to-end.html">end-to-end encryption implementation</a>. It is also possible to <strong>independently verify</strong> that Telegram apps available on Google Play and App Store are built using the <a href="../core.telegram.org/reproducible-builds.html">same code</a> that we publish on GitHub.</p>
+</blockquote>
+<h5><a class="anchor" name="telegram-database-library" href="#telegram-database-library"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/tdlib/td">Telegram Database Library</a></h5>
+<p>Cross-platform library for building custom Telegram apps, see <a href="../core.telegram.org/tdlib.html">TDLib</a> for details.<br>Licensed under <a href="../www.boost.org/LICENSE_1_0.html">Boost 1.0</a>.<br><a href="../external.html?link=https://github.com/tdlib/td">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-for-android" href="#telegram-for-android"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/DrKLO/Telegram">Telegram for Android</a></h5>
+<p>Official Android App, see <a href="dl/android.html">Google Play Market page</a> for full description.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL v. 2 or later</a>.<br><a href="../external.html?link=https://github.com/DrKLO/Telegram">GitHub »</a><br><a href="dl/android/apk.html">Download APK File »</a></p>
+<h5><a class="anchor" name="telegram-for-ios" href="#telegram-for-ios"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/TelegramMessenger/Telegram-iOS">Telegram for iOS</a></h5>
+<p>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL v. 2 or later</a>.<br><a href="../external.html?link=https://github.com/TelegramMessenger/Telegram-iOS">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-for-macos" href="#telegram-for-macos"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/overtake/TelegramSwift">Telegram for macOS</a></h5>
+<p>Native macOS client.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/gpl.html">GNU GPL v. 2</a>.<br><a href="../external.html?link=https://github.com/overtake/TelegramSwift">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-for-web-browsers" href="#telegram-for-web-browsers"><i class="anchor-icon"></i></a>Telegram for Web browsers</h5>
+<ul>
+<li><p><a href="../external.html?link=https://github.com/morethanwords/tweb"><strong>Telegram Web, Version K</strong></a>. Mac, Windows, Linux, Mobile.<br>Licensed under <a href="../external.html?link=https://github.com/morethanwords/tweb/blob/master/LICENSE">GNU GPL v. 3</a>.<br><a href="../external.html?link=https://github.com/morethanwords/tweb">GitHub »</a></p>
+</li>
+<li><p><a href="../external.html?link=https://github.com/Ajaxy/telegram-tt"><strong>Telegram Web, Version A</strong></a>. Mac, Windows, Linux, Mobile.<br>Licensed under <a href="../external.html?link=https://github.com/Ajaxy/telegram-tt/blob/master/LICENSE">GNU GPL v. 3</a>.<br><a href="../external.html?link=https://github.com/Ajaxy/telegram-tt">GitHub »</a></p>
+</li>
+<li><p><a href="../external.html?link=https://github.com/zhukov/webogram">Legacy JavaScript client</a>. Mac, Windows, Linux.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/gpl.html">GNU GPL v. 3</a>.<br><a href="../external.html?link=https://github.com/zhukov/webogram">GitHub »</a></p>
+</li>
+</ul>
+<h5><a class="anchor" name="telegram-react" href="#telegram-react"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/evgeny-nadymov/telegram-react">Telegram React</a></h5>
+<p>JavaScript client for browsers. Mac, Windows, Linux.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/gpl.html">GNU GPL v. 3</a>.<br><a href="../external.html?link=https://github.com/evgeny-nadymov/telegram-react">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-desktop" href="#telegram-desktop"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/telegramdesktop/tdesktop">Telegram Desktop</a></h5>
+<p>Qt-based desktop client. Mac, Windows, Linux.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/gpl.html">GNU GPL v. 3</a>.<br><a href="../external.html?link=https://github.com/telegramdesktop/tdesktop">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-for-wp" href="#telegram-for-wp"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/evgeny-nadymov/telegram-wp">Telegram for WP</a></h5>
+<p>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL v. 2 or later</a>.<br><a href="../external.html?link=https://github.com/evgeny-nadymov/telegram-wp">GitHub »</a></p>
+<h5><a class="anchor" name="telegram-x-for-android" href="#telegram-x-for-android"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/TGX-Android/Telegram-X">Telegram X for Android</a></h5>
+<p>Alternative Telegram client for Android based on TDLib.<br>Licensed under <a href="../external.html?link=https://github.com/TGX-Android/Telegram-X/blob/main/LICENSE">GPL v.3.0</a><br><a href="../external.html?link=https://github.com/TGX-Android/Telegram-X">GitHub »</a></p>
+<h4><a class="anchor" name="unofficial-apps" href="#unofficial-apps"><i class="anchor-icon"></i></a>Unofficial apps</h4>
+<h5><a class="anchor" name="telegram-cli-unofficial" href="#telegram-cli-unofficial"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/vysheng/tg">Telegram CLI</a> (Unofficial)</h5>
+<p>Linux Command-line interface for Telegram.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU GPL v. 2</a>.<br><a href="../external.html?link=https://github.com/vysheng/tg">GitHub »</a></p>
+<h5><a class="anchor" name="unigram-unofficial" href="#unigram-unofficial"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/UnigramDev/Unigram">Unigram</a> (Unofficial)</h5>
+<p>A Telegram client optimized for Windows (desktop and Xbox).<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/gpl.html">GNU GPL v. 3  or later</a>.<br><a href="../external.html?link=https://github.com/UnigramDev/Unigram">GitHub »</a></p>
+<h5><a class="anchor" name="madelineproto-unofficial" href="#madelineproto-unofficial"><i class="anchor-icon"></i></a><a href="../external.html?link=https://github.com/danog/MadelineProto">MadelineProto</a> (Unofficial)</h5>
+<p>A PHP MTProto Telegram client.<br>Licensed under <a href="../external.html?link=https://www.gnu.org/licenses/agpl-3.0.en.html">GNU AGPL v. 3</a>.<br><a href="../external.html?link=https://github.com/danog/MadelineProto">GitHub »</a></p>
+<hr>
+<h3><a class="anchor" name="bug-bounty-program" href="#bug-bounty-program"><i class="anchor-icon"></i></a>Bug Bounty Program</h3>
+<p>Telegram welcomes developers and the security research community to audit its services, <a href="apps.html#source-code">code</a> and <a href="../core.telegram.org/mtproto.html">protocol</a> seeking vulnerabilities or security-related issues. <a href="../core.telegram.org/bug-bounty.html">Learn more about our Bug Bounty Program here</a>.</p>
+</div>
+  
+</div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer_wrap">
+  <div class="footer_columns_wrap footer_desktop">
+    <div class="footer_column footer_column_telegram">
+      <h5>Telegram</h5>
+      <div class="footer_telegram_description"></div>
+      Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.
+    </div>
+
+    <div class="footer_column">
+      <h5><a href="faq.html">About</a></h5>
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="press.html">Press</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="apps.html#mobile-apps">Mobile Apps</a></h5>
+      <ul>
+        <li><a href="../apps.apple.com/us/app/telegram-messenger/id686449807.html">iPhone/iPad</a></li>
+        <li><a href="android.html">Android</a></li>
+        <li><a href="../external.html?link=https://web.telegram.org/">Mobile Web</a></li>
+      </ul>
+    </div>
+    <div class="footer_column">
+      <h5><a href="apps.html#desktop-apps">Desktop Apps</a></h5>
+      <ul>
+        <li><a href="../desktop.telegram.org/index.html">PC/Mac/Linux</a></li>
+        <li><a href="../macos.telegram.org/index.html">macOS</a></li>
+        <li><a href="../external.html?link=https://web.telegram.org/">Web-browser</a></li>
+      </ul>
+    </div>
+    <div class="footer_column footer_column_platform">
+      <h5><a href="../core.telegram.org/index.html">Platform</a></h5>
+      <ul>
+        <li><a href="../core.telegram.org/api.34.delayed">API</a></li>
+        <li><a href="../external.html?link=http://translations.telegram.org/">Translations</a></li>
+        <li><a href="../external.html?link=http://instantview.telegram.org/">Instant View</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer_columns_wrap footer_mobile">
+    <div class="footer_column">
+      <h5><a href="faq.html">About</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="blog.html">Blog</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="apps.html">Apps</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="../core.telegram.org/index.html">Platform</a></h5>
+    </div>
+    <div class="footer_column">
+      <h5><a href="press.html">Press</a></h5>
+    </div>
+  </div>
+</div>
+    <script src="js/main67c6.js?47"></script>
+    <script src="js/tgstickerc16a.js?31"></script>
+
+    <script>mainInitTgStickers({"maxDeviceRatio":2,"cachingModulo":4});
+backToTopInit("Go up");
+removePreloadInit();
+</script>
+  </body>
+</html>
+<!-- page generated in 6.68ms -->
