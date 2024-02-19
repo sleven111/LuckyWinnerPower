@@ -1,0 +1,7 @@
+{
+  "name": "Cash App",
+  "icons": [
+    { "src": "https://cash-f.squarecdn.com/static/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "https://cash-f.squarecdn.com/static/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
